@@ -1,0 +1,52 @@
+name: Workshop Watcher
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub often delays scheduled runs under load,
+    # so treat this as "roughly every 15-20 minutes".
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      baseline:
+        description: 'Re-snapshot collections without posting changes'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Never let two runs race on the state files.
+concurrency:
+  group: workshop-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check collections
+        run: node watch.mjs ${{ inputs.baseline && '--baseline' || '' }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      # Runs even if the check failed, so a partial success still records
+      # its snapshot and doesn't re-alert on the next run.
+      - name: Save snapshots
+        if: always()
+        run: |
+          git config user.name 'workshop-watcher'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state
+          if git diff --staged --quiet; then
+            echo 'No snapshot changes.'
+            exit 0
+          fi
+          git commit -m 'state: update collection snapshots [skip ci]'
+          git pull --rebase --autostash
+          git push
