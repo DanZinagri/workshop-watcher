@@ -79,8 +79,10 @@ To stop watching one, delete its entry and its `state/<id>.json` file.
   15 minutes is closer to 15–25 in practice. Cron below 5 minutes is not honored.
 - **Free minutes.** Public repos get unlimited Actions minutes. On a private repo this uses roughly
   900–1000 of the free 2000 minutes/month, so it fits but leaves less room for other workflows.
-- **Dormancy.** GitHub disables schedules on repos with no activity for 60 days. Because this
-  workflow commits its own snapshots, it keeps itself alive.
+- **Dormancy.** GitHub disables schedules on repos with no activity for 60 days. Snapshot commits
+  only happen when a collection actually changes, so the workflow also stamps the date into
+  `state/last-run.txt` — that's one commit a day, which is enough to keep the schedule alive even
+  if the collections sit untouched for months.
 - **Renames.** If a mod is renamed, alerts use the name recorded at the time it entered the
   collection.
 - **Deleted mods.** An item pulled from the Workshop entirely shows as `Unknown item <id>` if it was

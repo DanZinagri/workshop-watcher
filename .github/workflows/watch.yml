@@ -35,6 +35,14 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
+      # GitHub disables scheduled workflows after 60 days with no repo
+      # activity. Snapshot commits only happen when a collection actually
+      # changes, so a quiet stretch would silently kill the schedule. Writing
+      # the date (not the time) guarantees at most one extra commit per day.
+      - name: Heartbeat
+        if: always()
+        run: date -u +%Y-%m-%d > state/last-run.txt
+
       # Runs even if the check failed, so a partial success still records
       # its snapshot and doesn't re-alert on the next run.
       - name: Save snapshots
