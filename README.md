@@ -75,8 +75,13 @@ To stop watching one, delete its entry and its `state/<id>.json` file.
 
 ## Notes and limitations
 
-- **Timing.** GitHub's scheduled runs are best-effort and get delayed when the platform is busy;
-  15 minutes is closer to 15–25 in practice. Cron below 5 minutes is not honored.
+- **Timing.** Checks run every 5 minutes, which is GitHub's floor for cron. Scheduled runs are
+  best-effort and get delayed when the platform is busy, so expect an alert within roughly 5–15
+  minutes of a change. The cron is offset one minute off the boundary because `:00/:05/:10` is where
+  every other repo's jobs pile up.
+- **First run after creating the repo.** GitHub takes a while to activate a brand-new repo's
+  schedule — often 30–60 minutes, during which slots are silently skipped. This is one-time; use
+  **Run workflow** if you need a check before then.
 - **Free minutes.** Public repos get unlimited Actions minutes. On a private repo this uses roughly
   900–1000 of the free 2000 minutes/month, so it fits but leaves less room for other workflows.
 - **Dormancy.** GitHub disables schedules on repos with no activity for 60 days. Snapshot commits
