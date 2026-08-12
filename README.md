@@ -91,7 +91,7 @@ To stop watching one, delete its entry and its `state/<id>.json` file.
 
 ## Running it locally
 
-Requires Node 18+.
+Requires Node 20+ (the workflow runs it on Node 24).
 
 ```bash
 DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..." node watch.mjs
