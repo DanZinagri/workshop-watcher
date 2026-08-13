@@ -29,6 +29,9 @@ const MESSAGE_BUDGET = 5500;
 const MAX_EMBEDS_PER_MESSAGE = 10;
 const BASELINE = process.argv.includes('--baseline');
 
+// Collections without an explicit "webhook" in collections.json post here.
+const DEFAULT_WEBHOOK_ENV = 'DISCORD_WEBHOOK_URL';
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /** Strip characters that would break a markdown link label. */
@@ -304,13 +307,27 @@ async function processCollection(config, webhookUrl) {
   return { label, changed: true, added: added.length, removed: removed.length };
 }
 
-async function main() {
-  const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
-  if (!webhookUrl) {
-    console.error('DISCORD_WEBHOOK_URL is not set.');
-    process.exit(1);
+/** Bucket entries by key, preserving insertion order. */
+function groupBy(items, keyFn) {
+  const groups = new Map();
+  for (const item of items) {
+    const key = keyFn(item);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
   }
+  return groups;
+}
 
+/** Post one summary embed per distinct webhook. */
+async function postSummaries(grouped, build) {
+  for (const [webhookUrl, entries] of grouped) {
+    await postToDiscord(webhookUrl, [build(entries)]).catch((err) =>
+      console.error(`Could not post summary: ${err.message}`),
+    );
+  }
+}
+
+async function main() {
   const config = JSON.parse(await readFile(CONFIG_PATH, 'utf8'));
   const collections = config.collections ?? [];
   if (!collections.length) {
@@ -318,48 +335,69 @@ async function main() {
     process.exit(1);
   }
 
+  // Resolve every webhook up front. A missing secret should fail before we
+  // start posting, not halfway through a batch of alerts.
+  const missing = new Map();
+  const targets = collections.map((entry) => {
+    const envName = entry.webhook ?? DEFAULT_WEBHOOK_ENV;
+    const url = process.env[envName];
+    const label = entry.label ?? `Collection ${entry.id}`;
+    if (!url) {
+      if (!missing.has(envName)) missing.set(envName, []);
+      missing.get(envName).push(label);
+    }
+    return { entry, label, url };
+  });
+
+  if (missing.size) {
+    for (const [envName, labels] of missing) {
+      console.error(`${envName} is not set (needed by: ${labels.join(', ')})`);
+    }
+    process.exit(1);
+  }
+
   const failures = [];
   const baselines = [];
 
-  for (const entry of collections) {
-    const label = entry.label ?? `Collection ${entry.id}`;
+  for (const { entry, label, url } of targets) {
     try {
-      const result = await processCollection(entry, webhookUrl);
-      if (result.baseline) baselines.push(result);
+      const result = await processCollection(entry, url);
+      if (result.baseline) baselines.push({ ...result, url });
     } catch (err) {
       console.error(`${label}: ${err.message}`);
-      failures.push({ label, message: err.message });
+      failures.push({ label, message: err.message, url });
     }
   }
 
-  if (baselines.length) {
-    await postToDiscord(webhookUrl, [
-      {
-        title: 'Workshop Watcher is now tracking',
-        color: COLOR.info,
-        description: baselines
-          .map(
-            (b) =>
-              `- **${escapeLabel(b.label)}** - ${b.count} items snapshotted. You'll get an alert on the next change.`,
-          )
-          .join('\n'),
-        timestamp: new Date().toISOString(),
-      },
-    ]);
-  }
+  await postSummaries(
+    groupBy(baselines, (b) => b.url),
+    (entries) => ({
+      title: 'Workshop Watcher is now tracking',
+      color: COLOR.info,
+      description: entries
+        .map(
+          (b) =>
+            `- **${escapeLabel(b.label)}** - ${b.count} items snapshotted. You'll get an alert on the next change.`,
+        )
+        .join('\n'),
+      timestamp: new Date().toISOString(),
+    }),
+  );
 
   if (failures.length) {
-    // Report the problem to Discord, but don't fail loudly enough to bury it.
-    await postToDiscord(webhookUrl, [
-      {
+    // Report each failure to the webhook that collection belongs to, so a
+    // broken collection surfaces in the channel that cares about it.
+    await postSummaries(
+      groupBy(failures, (f) => f.url),
+      (entries) => ({
         title: 'Workshop Watcher hit a problem',
         color: COLOR.error,
-        description: failures
+        description: entries
           .map((f) => `- **${escapeLabel(f.label)}**: ${escapeLabel(f.message)}`)
           .join('\n'),
         timestamp: new Date().toISOString(),
-      },
-    ]).catch((err) => console.error(`Could not report failures: ${err.message}`));
+      }),
+    );
     process.exit(1);
   }
 }

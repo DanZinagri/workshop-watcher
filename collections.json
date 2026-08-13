@@ -2,11 +2,28 @@
   "collections": [
     {
       "id": "3751557821",
-      "label": "Removals"
+      "label": "Removals",
+      "webhook": "DISCORD_WEBHOOK_URL"
     },
     {
       "id": "3751562522",
-      "label": "Additions"
+      "label": "Additions",
+      "webhook": "DISCORD_WEBHOOK_URL"
+    },
+    {
+      "id": "3688460262",
+      "label": "Homebrew1",
+      "webhook": "DISCORD_WEBHOOK_HOMEBREW"
+    },
+    {
+      "id": "3688460413",
+      "label": "Homebrew2",
+      "webhook": "DISCORD_WEBHOOK_HOMEBREW"
+    },
+    {
+      "id": "3688460510",
+      "label": "Homebrew3",
+      "webhook": "DISCORD_WEBHOOK_HOMEBREW"
     }
   ]
 }

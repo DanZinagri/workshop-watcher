@@ -35,6 +35,7 @@ jobs:
         run: node watch.mjs ${{ inputs.baseline && '--baseline' || '' }}
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_HOMEBREW: ${{ secrets.DISCORD_WEBHOOK_HOMEBREW }}
 
       # GitHub disables scheduled workflows after 60 days with no repo
       # activity. Snapshot commits only happen when a collection actually

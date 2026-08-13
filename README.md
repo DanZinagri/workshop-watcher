@@ -6,26 +6,30 @@ online.
 
 Currently watching:
 
-| Collection | ID |
-| --- | --- |
-| [Removals](https://steamcommunity.com/sharedfiles/filedetails/?id=3751557821) | `3751557821` |
-| [Additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3751562522) | `3751562522` |
+| Collection | ID | Posts to |
+| --- | --- | --- |
+| [Removals](https://steamcommunity.com/sharedfiles/filedetails/?id=3751557821) | `3751557821` | `DISCORD_WEBHOOK_URL` |
+| [Additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3751562522) | `3751562522` | `DISCORD_WEBHOOK_URL` |
+| [Homebrew1](https://steamcommunity.com/sharedfiles/filedetails/?id=3688460262) | `3688460262` | `DISCORD_WEBHOOK_HOMEBREW` |
+| [Homebrew2](https://steamcommunity.com/sharedfiles/filedetails/?id=3688460413) | `3688460413` | `DISCORD_WEBHOOK_HOMEBREW` |
+| [Homebrew3](https://steamcommunity.com/sharedfiles/filedetails/?id=3688460510) | `3688460510` | `DISCORD_WEBHOOK_HOMEBREW` |
 
 ## How it works
 
-Every ~15 minutes a workflow asks Steam for the current contents of each collection, diffs that
-against the last snapshot stored in `state/`, and posts anything that changed to a Discord webhook.
-The updated snapshot is committed back to the repo, so the diff survives between runs.
+Every 5 minutes a workflow asks Steam for the current contents of each collection, diffs that
+against the last snapshot stored in `state/`, and posts anything that changed to that collection's
+Discord webhook. The updated snapshot is committed back to the repo, so the diff survives between
+runs.
 
 This tracks **collection membership**, not mod version updates. If a mod already in the collection
 publishes a new version, that is not reported.
 
 ## Setup
 
-### 1. Create the Discord webhook
+### 1. Create the Discord webhooks
 
 In Discord: **Server Settings → Integrations → Webhooks → New Webhook**. Pick the channel you want
-alerts in, then **Copy Webhook URL**.
+alerts in, then **Copy Webhook URL**. Repeat for each channel you want to route to.
 
 Anyone with that URL can post to your channel, so treat it like a password — it goes in a GitHub
 secret, never in a file.
@@ -36,12 +40,17 @@ secret, never in a file.
 git init && git add . && git commit -m "Workshop watcher" && git branch -M main && git remote add origin https://github.com/DanZinagri/workshop-watcher.git && git push -u origin main
 ```
 
-### 3. Add the secret
+### 3. Add the secrets
 
-**Repo → Settings → Secrets and variables → Actions → New repository secret**
+**Repo → Settings → Secrets and variables → Actions → New repository secret**, once per webhook:
 
-- Name: `DISCORD_WEBHOOK_URL`
-- Value: the webhook URL
+| Secret name | Channel |
+| --- | --- |
+| `DISCORD_WEBHOOK_URL` | Removals / Additions |
+| `DISCORD_WEBHOOK_HOMEBREW` | Homebrew1 / Homebrew2 / Homebrew3 |
+
+Every secret referenced by `collections.json` must also be passed through in the `env:` block of
+`.github/workflows/watch.yml` — GitHub does not expose secrets to a step automatically.
 
 ### 4. Allow the workflow to commit
 
@@ -50,9 +59,9 @@ permissions** → Save. The workflow needs this to store snapshots.
 
 ### 5. First run
 
-**Actions → Workshop Watcher → Run workflow.** The first run snapshots both collections and posts a
-"now tracking" message instead of announcing all 269 items as additions. After that, only real
-changes get posted.
+**Actions → Workshop Watcher → Run workflow.** Any collection without a snapshot yet is baselined
+and announced with a "now tracking" message rather than being reported as thousands of additions.
+After that, only real changes get posted.
 
 ## Adding or removing a collection
 
@@ -61,11 +70,16 @@ Edit `collections.json`:
 ```json
 {
   "collections": [
-    { "id": "3751557821", "label": "Removals" },
-    { "id": "3751562522", "label": "Additions" }
+    { "id": "3751557821", "label": "Removals", "webhook": "DISCORD_WEBHOOK_URL" },
+    { "id": "3688460262", "label": "Homebrew1", "webhook": "DISCORD_WEBHOOK_HOMEBREW" }
   ]
 }
 ```
+
+`webhook` is the **name of the environment variable** holding the webhook URL, not the URL itself —
+never put the URL in this file, it gets committed. Omit the field to fall back to
+`DISCORD_WEBHOOK_URL`. Adding a new destination means three edits: the secret in GitHub, the `env:`
+line in the workflow, and the `webhook` value here.
 
 The `id` is the number from the collection URL. The collection must be **public** — Steam's API
 returns nothing for private or friends-only collections. New entries baseline silently on their
