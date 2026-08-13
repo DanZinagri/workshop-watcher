@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-13T21:23:57.802Z",
-  "count": 835,
+  "updatedAt": "2026-08-13T22:11:43.807Z",
+  "count": 836,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -838,6 +838,7 @@
     "3779630220": "Right Click to Toss Carried Pawn",
     "3780470964": "StockpileGroups",
     "3781285156": "Cherry picker scroll bars",
-    "3781460271": "VFE Tribals Auto Gathering"
+    "3781460271": "VFE Tribals Auto Gathering",
+    "3782632915": "Stockpile It!"
   }
 }
