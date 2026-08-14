@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-08-14T22:58:56.354Z",
-  "count": 71,
+  "updatedAt": "2026-08-14T23:31:11.028Z",
+  "count": 72,
   "items": {
     "1542424705": "Ugh You Got Me",
     "1544439671": "[SYR] Terrain",
@@ -74,6 +74,7 @@
     "3751293981": "Alpha Genes Facial Animation",
     "3757704214": "SquadKit",
     "3757952859": "Vanilla Factions Expanded - Classical - No Auto Research",
-    "3769605642": "No Log On Startup"
+    "3769605642": "No Log On Startup",
+    "3781978940": "Bio Tab+"
   }
 }
