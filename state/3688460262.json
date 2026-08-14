@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-14T06:00:46.181Z",
-  "count": 836,
+  "updatedAt": "2026-08-14T07:46:12.208Z",
+  "count": 837,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -839,6 +839,7 @@
     "3780470964": "StockpileGroups",
     "3781285156": "Cherry picker scroll bars",
     "3781460271": "VFE Tribals Auto Gathering",
-    "3782632915": "Stockpile It!"
+    "3782632915": "Stockpile It!",
+    "3783109079": "Character Development - Additional Gene Quirks"
   }
 }
