@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-08-15T19:04:35.594Z",
-  "count": 200,
+  "updatedAt": "2026-08-15T19:31:22.184Z",
+  "count": 201,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -203,6 +203,7 @@
     "3776015553": "As above, So below 2",
     "3779356473": "VRE Lycanthrope Chest Fur as Body Attachment",
     "3781298660": "Winston Waves Xenotypes",
-    "3783109079": "Character Development - Additional Gene Quirks"
+    "3783109079": "Character Development - Additional Gene Quirks",
+    "3783859385": "Pumpkin Hairstyles"
   }
 }
