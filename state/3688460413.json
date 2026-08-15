@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-08-15T20:43:22.131Z",
-  "count": 449,
+  "updatedAt": "2026-08-15T21:02:22.697Z",
+  "count": 450,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -452,6 +452,7 @@
     "3779460145": "Deck 2",
     "3781130446": "Mojave Mask - Progression Storytellers",
     "3781298660": "Winston Waves Xenotypes",
-    "3783109079": "Character Development - Additional Gene Quirks"
+    "3783109079": "Character Development - Additional Gene Quirks",
+    "3783780424": "Devourer Escape Gene"
   }
 }
