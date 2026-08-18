@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-08-18T22:59:13.387Z",
-  "count": 214,
+  "updatedAt": "2026-08-18T23:31:16.703Z",
+  "count": 215,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -217,6 +217,7 @@
     "3780458386": "Gerrymon's Misc Props: Graveyard",
     "3781872865": "FirmamentFX",
     "3783859385": "Pumpkin Hairstyles",
-    "3785728415": "Form and Function Hairstyle"
+    "3785728415": "Form and Function Hairstyle",
+    "3785962373": "Nixte's Hair Salon"
   }
 }
