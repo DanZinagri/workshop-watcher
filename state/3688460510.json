@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-08-18T18:53:16.777Z",
-  "count": 212,
+  "updatedAt": "2026-08-18T19:27:22.894Z",
+  "count": 214,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -144,6 +144,7 @@
     "3541917234": "Melee Animation Vanilla",
     "3543705507": "Better Trees: More Djeeshka Like Textures",
     "3560450391": "Tacticool Ops",
+    "3561610873": "Injury Texture Variety",
     "3577372705": "Better Linkable Colors (Continued)",
     "3579351912": "Miniature Props and Decor",
     "3585705988": "Facial Animation Compatability Project",
@@ -215,6 +216,7 @@
     "3774821567": "Show Me Your Tools - Forked",
     "3780458386": "Gerrymon's Misc Props: Graveyard",
     "3781872865": "FirmamentFX",
-    "3783859385": "Pumpkin Hairstyles"
+    "3783859385": "Pumpkin Hairstyles",
+    "3785728415": "Form and Function Hairstyle"
   }
 }
