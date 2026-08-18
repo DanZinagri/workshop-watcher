@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-08-18T15:17:08.006Z",
-  "count": 197,
+  "updatedAt": "2026-08-18T15:52:24.531Z",
+  "count": 196,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -198,7 +198,6 @@
     "3774821567": "Show Me Your Tools - Forked",
     "3775560423": "Don't Automatically Expand Home Area",
     "3776015553": "As above, So below 2",
-    "3779356473": "VRE Lycanthrope Chest Fur as Body Attachment",
     "3781298660": "Winston Waves Xenotypes",
     "3783109079": "Character Development - Additional Gene Quirks"
   }
