@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-18T16:29:04.381Z",
-  "count": 838,
+  "updatedAt": "2026-08-18T17:00:33.607Z",
+  "count": 840,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -528,6 +528,7 @@
     "3525070588": "Ground Targeter 1.6 [temp]",
     "3525414162": "TD Enhancement Pack - Continued",
     "3526216885": "No Max Bills: Redux",
+    "3526354009": "Replace Stuff - Continued",
     "3526444119": "Taste of Vanilla - Flaks and Plates",
     "3526657761": "Pause other settlements simulation",
     "3526957922": "[FSF] Better Exploration Loot",
@@ -841,6 +842,7 @@
     "3781460271": "VFE Tribals Auto Gathering",
     "3782632915": "Stockpile It!",
     "3783411735": "Progression: Hives",
-    "3783456242": "Shift Change"
+    "3783456242": "Shift Change",
+    "3785075223": "Basic Dropdowns Replace Stuff Patch"
   }
 }
