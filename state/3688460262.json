@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-19T17:35:53.839Z",
-  "count": 843,
+  "updatedAt": "2026-08-19T17:57:53.648Z",
+  "count": 845,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -811,6 +811,7 @@
     "3764537806": "Sleek Work Priorities",
     "3764896857": "Samurai Psycasts",
     "3766043780": "Warcasket Weapon Quality",
+    "3766269434": "Forgetful Mech Resurrection",
     "3766728761": "Persona Weapons Unbound",
     "3766830289": "Modern Colonist Bar",
     "3767179782": "Dynamic Cornerstones",
@@ -846,6 +847,7 @@
     "3782632915": "Stockpile It!",
     "3783411735": "Progression: Hives",
     "3783456242": "Shift Change",
-    "3785075223": "Basic Dropdowns Replace Stuff Patch"
+    "3785075223": "Basic Dropdowns Replace Stuff Patch",
+    "3785523304": "Resurrect Animals (VPE Patch)"
   }
 }
