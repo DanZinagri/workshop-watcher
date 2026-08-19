@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-19T22:09:17.069Z",
-  "count": 845,
+  "updatedAt": "2026-08-19T22:42:48.807Z",
+  "count": 846,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -689,6 +689,7 @@
     "3667931113": "Pawn Editor Forked",
     "3668307448": "Simple Leadership",
     "3672142760": "Thick Roof Miner Temp",
+    "3672467556": "VE Ideology Addon — Autogenerate Lore-friendly Icons Only",
     "3672467706": "Map Mode Framework Forked",
     "3673202834": "Gene Ledger",
     "3673644556": "Style Merging",
