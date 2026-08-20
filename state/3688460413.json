@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-08-19T23:56:36.069Z",
-  "count": 453,
+  "updatedAt": "2026-08-20T01:44:53.764Z",
+  "count": 454,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -456,6 +456,7 @@
     "3781298660": "Winston Waves Xenotypes",
     "3783109079": "Character Development - Additional Gene Quirks",
     "3783780424": "Devourer Escape Gene",
-    "3785184597": "VPE - Pyromancer"
+    "3785184597": "VPE - Pyromancer",
+    "3786535436": "Archeankin (Retexture)"
   }
 }
