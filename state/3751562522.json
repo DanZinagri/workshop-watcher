@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-08-20T17:18:48.297Z",
-  "count": 190,
+  "updatedAt": "2026-08-20T17:53:07.815Z",
+  "count": 189,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -149,7 +149,6 @@
     "3738766980": "Ultimate Concrete Patcher",
     "3739416604": "Unknown item 3739416604",
     "3739557716": "Expanded Tribals Xenotype (VFE Tribals Patch)",
-    "3740575493": "Modern Pawn Tabs",
     "3740688691": "Modern Bio Tab",
     "3740901200": "Clay Bulk Stonecutting",
     "3741230540": "Gene Source Tooltips for xenotype editor",
