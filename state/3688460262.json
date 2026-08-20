@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-20T16:04:54.043Z",
-  "count": 846,
+  "updatedAt": "2026-08-20T16:49:20.290Z",
+  "count": 847,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -23,7 +23,6 @@
     "1499848654": "Toggle Harvest",
     "1504723424": "Smart Speed",
     "1506931205": "Tradable Meals",
-    "1508850027": "RimHUD",
     "1516158345": "Interaction Bubbles",
     "1541408076": "We Had a Trader? (Continued)",
     "1542765654": "AnimalHarvestingSpot (Continued)",
@@ -849,6 +848,8 @@
     "3783411735": "Progression: Hives",
     "3783456242": "Shift Change",
     "3785075223": "Basic Dropdowns Replace Stuff Patch",
-    "3785523304": "Resurrect Animals (VPE Patch)"
+    "3785523304": "Resurrect Animals (VPE Patch)",
+    "3786107692": "Radius UI Framework",
+    "3786131805": "Radius UI - Inspector"
   }
 }
