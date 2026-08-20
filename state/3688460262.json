@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-20T20:25:08.362Z",
+  "updatedAt": "2026-08-20T20:57:39.480Z",
   "count": 846,
   "items": {
     "728314182": "RT Fuse",
@@ -757,7 +757,6 @@
     "3742689571": "Sleek Work Schedule Tab",
     "3742906203": "Modern Quest Menu",
     "3742925193": "Modern History Menu",
-    "3742926690": "Modern Faction Menu",
     "3743615382": "Modern Needs Tab",
     "3743959668": "Designations Tooltip",
     "3744201621": "True RPG Inventory",
@@ -849,6 +848,7 @@
     "3785075223": "Basic Dropdowns Replace Stuff Patch",
     "3785523304": "Resurrect Animals (VPE Patch)",
     "3786107692": "Radius UI Framework",
-    "3786131805": "Radius UI - Inspector"
+    "3786131805": "Radius UI - Inspector",
+    "3786945713": "Radius UI - Faction Menu"
   }
 }
