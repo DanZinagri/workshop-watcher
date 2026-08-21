@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-08-21T19:56:12.517Z",
-  "count": 457,
+  "updatedAt": "2026-08-21T20:33:29.022Z",
+  "count": 458,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -460,6 +460,7 @@
     "3783780424": "Devourer Escape Gene",
     "3785184597": "VPE - Pyromancer",
     "3786535436": "Archeankin (Retexture)",
-    "3786620127": "Alien Worlds - Gas Giant"
+    "3786620127": "Alien Worlds - Gas Giant",
+    "3787608587": "Prowess Nerf"
   }
 }
