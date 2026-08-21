@@ -1,7 +1,7 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-08-21T15:55:09.798Z",
+  "updatedAt": "2026-08-21T16:40:28.150Z",
   "count": 190,
   "items": {
     "1447140290": "OgreStack",
@@ -156,7 +156,6 @@
     "3741934365": "Itemization Overhaul - Sets Addon",
     "3742407509": "Itemization Overhaul - Runes & Socketables",
     "3742486404": "Itemization Overhaul - Uniques & Mythics",
-    "3742906203": "Modern Quest Menu",
     "3743049600": "Itemization Overhaul - Jewelry & Charms",
     "3743615382": "Modern Needs Tab",
     "3745533292": "Spider Xenotypes - Big and Small Patch",
@@ -193,6 +192,7 @@
     "3783109079": "Character Development - Additional Gene Quirks",
     "3786107692": "Radius UI Framework",
     "3786131805": "Radius UI - Inspector",
+    "3786840944": "Radius UI - Quest Menu",
     "3786945713": "Radius UI - Faction Menu"
   }
 }
