@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-21T15:18:57.742Z",
-  "count": 846,
+  "updatedAt": "2026-08-21T15:55:10.085Z",
+  "count": 847,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -849,6 +849,7 @@
     "3785523304": "Resurrect Animals (VPE Patch)",
     "3786107692": "Radius UI Framework",
     "3786131805": "Radius UI - Inspector",
-    "3786945713": "Radius UI - Faction Menu"
+    "3786945713": "Radius UI - Faction Menu",
+    "3787398983": "Gravship Cutscene Speed"
   }
 }
