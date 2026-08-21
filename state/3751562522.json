@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-08-21T19:35:43.549Z",
-  "count": 190,
+  "updatedAt": "2026-08-21T19:56:08.603Z",
+  "count": 191,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -193,6 +193,7 @@
     "3786107692": "Radius UI Framework",
     "3786131805": "Radius UI - Inspector",
     "3786840944": "Radius UI - Quest Menu",
-    "3786945713": "Radius UI - Faction Menu"
+    "3786945713": "Radius UI - Faction Menu",
+    "3787598088": "Ghouls Can Clean And Haul"
   }
 }
