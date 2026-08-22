@@ -1,7 +1,7 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-08-22T06:32:40.467Z",
+  "updatedAt": "2026-08-22T07:17:01.467Z",
   "count": 190,
   "items": {
     "1447140290": "OgreStack",
@@ -155,7 +155,6 @@
     "3742407509": "Itemization Overhaul - Runes & Socketables",
     "3742486404": "Itemization Overhaul - Uniques & Mythics",
     "3743049600": "Itemization Overhaul - Jewelry & Charms",
-    "3743615382": "Modern Needs Tab",
     "3745533292": "Spider Xenotypes - Big and Small Patch",
     "3745898024": "Minor VPE Psycast Tweaks",
     "3747559189": "Modern Warrants",
@@ -193,6 +192,7 @@
     "3786840944": "Radius UI - Quest Menu",
     "3786945713": "Radius UI - Faction Menu",
     "3787598088": "Ghouls Can Clean And Haul",
-    "3787608587": "Prowess Nerf"
+    "3787608587": "Prowess Nerf",
+    "3787806055": "Radius UI - Needs Tab"
   }
 }

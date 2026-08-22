@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-22T06:32:40.604Z",
+  "updatedAt": "2026-08-22T07:17:03.270Z",
   "count": 853,
   "items": {
     "728314182": "RT Fuse",
@@ -758,7 +758,6 @@
     "3741230540": "Gene Source Tooltips for xenotype editor",
     "3742689571": "Sleek Work Schedule Tab",
     "3742925193": "Modern History Menu",
-    "3743615382": "Modern Needs Tab",
     "3743959668": "Designations Tooltip",
     "3744201621": "True RPG Inventory",
     "3744208438": "True RPG Backpacks",
@@ -856,6 +855,7 @@
     "3786945713": "Radius UI - Faction Menu",
     "3787398983": "Gravship Cutscene Speed",
     "3787598088": "Ghouls Can Clean And Haul",
-    "3787736781": "Capture Expansion"
+    "3787736781": "Capture Expansion",
+    "3787806055": "Radius UI - Needs Tab"
   }
 }
