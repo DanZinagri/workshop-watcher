@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-22T18:41:27.223Z",
-  "count": 852,
+  "updatedAt": "2026-08-22T19:08:11.547Z",
+  "count": 853,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -852,6 +852,7 @@
     "3786131805": "Radius UI - Inspector",
     "3786840944": "Radius UI - Quest Menu",
     "3786945713": "Radius UI - Faction Menu",
+    "3787205154": "Sit! - Simple Pet Stay",
     "3787398983": "Gravship Cutscene Speed",
     "3787598088": "Ghouls Can Clean And Haul",
     "3787736781": "Capture Expansion",
