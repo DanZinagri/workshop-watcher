@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-08-22T17:08:24.558Z",
-  "count": 67,
+  "updatedAt": "2026-08-22T17:35:46.026Z",
+  "count": 69,
   "items": {
     "1508850027": "RimHUD",
     "1542424705": "Ugh You Got Me",
@@ -36,6 +36,7 @@
     "3294973192": "No Blush - Vanilla Facial Animations",
     "3318922522": "FPS Stabilizer",
     "3324340437": "Vehicle Dubs Needs Fix",
+    "3328729902": "Nice Health Tab",
     "3347026598": "FirefliesTwo",
     "3384660931": "MultiFloors",
     "3407049972": "More and Retextured Head Shapes for VTE for Facial Animation",
@@ -61,6 +62,7 @@
     "3725418207": "Xenotype Pawn Preview",
     "3731047035": "Goliann Facial Animation",
     "3734644035": "Rizryn's Family Tree Mod",
+    "3734917610": "Rimbody Vanilla-Style Integration Patch",
     "3742391245": "Beliar Facial Animations",
     "3742926690": "Modern Faction Menu",
     "3745672274": "VPE - Anima (Retexture)",
