@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-22T16:46:08.823Z",
-  "count": 852,
+  "updatedAt": "2026-08-22T17:08:26.831Z",
+  "count": 853,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -846,6 +846,7 @@
     "3782632915": "Stockpile It!",
     "3783411735": "Progression: Hives",
     "3783456242": "Shift Change",
+    "3784455797": "No Ambient Ducking",
     "3785075223": "Basic Dropdowns Replace Stuff Patch",
     "3785523304": "Resurrect Animals (VPE Patch)",
     "3786107692": "Radius UI Framework",
