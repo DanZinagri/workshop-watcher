@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-08-23T22:25:22.185Z",
-  "count": 459,
+  "updatedAt": "2026-08-23T22:50:12.426Z",
+  "count": 460,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -462,6 +462,7 @@
     "3785184597": "VPE - Pyromancer",
     "3786535436": "Archeankin (Retexture)",
     "3786620127": "Alien Worlds - Gas Giant",
-    "3787608587": "Prowess Nerf"
+    "3787608587": "Prowess Nerf",
+    "3788730287": "More Coilguns Mod"
   }
 }

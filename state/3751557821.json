@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-08-23T22:25:19.382Z",
-  "count": 70,
+  "updatedAt": "2026-08-23T22:50:06.670Z",
+  "count": 71,
   "items": {
     "1508850027": "RimHUD",
     "1542424705": "Ugh You Got Me",
@@ -67,6 +67,7 @@
     "3742926690": "Modern Faction Menu",
     "3745672274": "VPE - Anima (Retexture)",
     "3751293981": "Alpha Genes Facial Animation",
+    "3752932665": "Modern Notifications",
     "3757704214": "SquadKit",
     "3757952859": "Vanilla Factions Expanded - Classical - No Auto Research",
     "3768829403": "Alien Head Gene",
