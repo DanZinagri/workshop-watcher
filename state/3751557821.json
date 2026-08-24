@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-08-24T17:05:16.345Z",
-  "count": 71,
+  "updatedAt": "2026-08-24T17:44:58.169Z",
+  "count": 70,
   "items": {
     "1508850027": "RimHUD",
     "1542424705": "Ugh You Got Me",
@@ -73,7 +73,6 @@
     "3768829403": "Alien Head Gene",
     "3769605642": "No Log On Startup",
     "3770971498": "Alien Head Gene FA Patch",
-    "3781978940": "Bio Tab+",
-    "3788686557": "Better Inspect Pane"
+    "3781978940": "Bio Tab+"
   }
 }
