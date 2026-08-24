@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-08-24T14:57:18.070Z",
-  "count": 460,
+  "updatedAt": "2026-08-24T15:49:07.909Z",
+  "count": 461,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -463,6 +463,7 @@
     "3786535436": "Archeankin (Retexture)",
     "3786620127": "Alien Worlds - Gas Giant",
     "3787608587": "Prowess Nerf",
-    "3788730287": "More Coilguns Mod"
+    "3788730287": "More Coilguns Mod",
+    "3789304104": "[sbz] Bookcase"
   }
 }
