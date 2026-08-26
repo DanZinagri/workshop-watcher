@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-25T23:44:35.943Z",
-  "count": 860,
+  "updatedAt": "2026-08-26T00:25:01.536Z",
+  "count": 861,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -863,6 +863,7 @@
     "3788512568": "Scenarios Menu Search",
     "3788686557": "Better Inspect Pane",
     "3788718474": "Colony Epitaph",
-    "3789670069": "Radius UI - Xenotypes"
+    "3789670069": "Radius UI - Xenotypes",
+    "3790129900": "Facial Animation Performance Patch"
   }
 }
