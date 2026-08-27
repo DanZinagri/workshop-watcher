@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-08-26T21:49:36.761Z",
-  "count": 223,
+  "updatedAt": "2026-08-27T02:25:08.852Z",
+  "count": 225,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -95,6 +95,7 @@
     "3248775397": "UNAGI_Hair2",
     "3253300748": "UNAGI Another Duster Coat",
     "3256420234": "Fishing Decorative Retexture",
+    "3258157717": "Ponpeco Hair",
     "3261636943": "哥特式吸血鬼家具--死眠棺材床 Gothicstyle Vampire Furniture--CoffinBedCanBeDeathRest",
     "3264088247": "Trading Expanded Console Retexture",
     "3266399912": "UNAGI Apparel MOD Winter clothing",
@@ -226,6 +227,7 @@
     "3786055464": "Meat on a Stick - Expansion (Retexture)",
     "3786057800": "Pumpkin Female Body for Xenotypes",
     "3786319835": "Glowing Eyes Height And Tick Fix",
-    "3788600107": "Gerrymon's Misc Props: Adult Life"
+    "3788600107": "Gerrymon's Misc Props: Adult Life",
+    "3790361865": "Sin's Softer Hair Colors"
   }
 }
