@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-27T02:25:08.402Z",
-  "count": 865,
+  "updatedAt": "2026-08-27T13:01:20.272Z",
+  "count": 866,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -835,6 +835,7 @@
     "3776658466": "Wild Crops, a fork of Wild Spawn",
     "3777179657": "Fish Until Gizmo",
     "3778002533": "Semi Random Research:P-Fork Continued",
+    "3778359544": "CAI 5000 duty fix",
     "3778463813": "SpineLib",
     "3778464096": "Faction Lens",
     "3778487830": "StarFix",
