@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-08-29T17:51:26.921Z",
-  "count": 178,
+  "updatedAt": "2026-08-29T20:20:09.064Z",
+  "count": 177,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -167,7 +167,6 @@
     "3767304373": "Simple Doors",
     "3768684257": "Pawn Skills Reimagined",
     "3771602203": "Modern Dev Tools",
-    "3774821567": "Show Me Your Tools - Forked",
     "3775560423": "Don't Automatically Expand Home Area",
     "3776015553": "As above, So below 2",
     "3781298660": "Winston Waves Xenotypes",
