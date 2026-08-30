@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-08-30T18:47:17.756Z",
-  "count": 69,
+  "updatedAt": "2026-08-30T21:39:40.541Z",
+  "count": 70,
   "items": {
     "1508850027": "RimHUD",
     "1542424705": "Ugh You Got Me",
@@ -72,6 +72,7 @@
     "3770971498": "Alien Head Gene FA Patch",
     "3781978940": "Bio Tab+",
     "3789407175": "Molong Xenotype",
-    "3789484706": "Molong facial animations"
+    "3789484706": "Molong facial animations",
+    "3792986331": "Kabouter Xenotype"
   }
 }
