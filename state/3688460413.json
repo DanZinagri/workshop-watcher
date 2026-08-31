@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-08-31T11:33:17.623Z",
+  "updatedAt": "2026-08-31T18:07:35.093Z",
   "count": 460,
   "items": {
     "937759575": "Fahrenheit and Celsius",
@@ -142,7 +142,6 @@
     "3006389281": "Vanilla Plants Expanded - Mushrooms",
     "3014885065": "Hospitality: Vending machines",
     "3016454783": "Gene Extractor Tiers",
-    "3018569666": "Rim-Gnoblins",
     "3020079359": "Erin's Fenrisúlfr",
     "3027202907": "Big and Small - Slimes",
     "3028702598": "Rim-Elves",
@@ -180,7 +179,6 @@
     "3227008885": "Luciferium Expansion",
     "3228637524": "Rimsenal Xenotype Pack - Harana",
     "3229318714": "Metalhorror Immunity Gene",
-    "3232348025": "Orc Clan + Xenotype",
     "3234422589": "Anomaly Fleshbeasts or Sarg Fleshbeasts?",
     "3236726779": "Auto Animal Flap",
     "3237072670": "Beliar Xenotype",
@@ -270,6 +268,7 @@
     "3517096449": "[sbz] Cryogenic Tank",
     "3517488959": "Lightless Empyrean Reborn",
     "3520803100": "[Mk] Mako's Animal Cages Retexture - Doors Closed",
+    "3521016438": "Pesky's Bulwark Xenotype",
     "3521909777": "Erin's Fluffy Fauna",
     "3522676478": "Glittertech Expansion",
     "3522734130": "HarbingerKin - Phytokin",
@@ -463,6 +462,7 @@
     "3787608587": "Prowess Nerf",
     "3788730287": "More Coilguns Mod",
     "3789304104": "[sbz] Bookcase",
-    "3789536584": "Hospitality + Ideology Patch"
+    "3789536584": "Hospitality + Ideology Patch",
+    "3792325789": "Apex Mechanoids"
   }
 }
