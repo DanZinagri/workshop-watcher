@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-09-01T01:31:43.262Z",
-  "count": 466,
+  "updatedAt": "2026-09-01T06:44:45.726Z",
+  "count": 468,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -103,6 +103,7 @@
     "2880990495": "Vanilla Races Expanded - Saurid",
     "2881104358": "Roo's Painting Expansion",
     "2885014197": "Firefoam Things",
+    "2885430743": "Logistics Mechanoid",
     "2887952810": "Ultimate Storyteller [1.4-1.6]",
     "2888722722": "Det's Xenotypes - Stoneborn",
     "2889844371": "Cyanobot's Genes",
@@ -468,6 +469,7 @@
     "3788730287": "More Coilguns Mod",
     "3789304104": "[sbz] Bookcase",
     "3789536584": "Hospitality + Ideology Patch",
+    "3791527651": "Carrion Eater Gene",
     "3792325789": "Apex Mechanoids",
     "3793533339": "Infiltrator Protocol"
   }

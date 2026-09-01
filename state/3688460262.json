@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-09-01T01:31:41.405Z",
-  "count": 873,
+  "updatedAt": "2026-09-01T06:44:44.026Z",
+  "count": 875,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -821,6 +821,7 @@
     "3768069893": "Pillar Planner",
     "3768684257": "Pawn Skills Reimagined",
     "3769685249": "Grazing Area",
+    "3769703665": "Corpse Cover",
     "3769804600": "Mine Sight",
     "3770020686": "Fire At Will Gizmo - Evolving Retexture",
     "3770112044": "Character Development",
@@ -876,6 +877,7 @@
     "3790129900": "Facial Animation Performance Patch",
     "3791050729": "Less Annoying Minor Alerts",
     "3791277458": "Peto Progression - Progression Storytellers",
+    "3792610727": "Please use the pews ! (Ritual Seats Range Fix)",
     "3792795811": "Apparel Painter"
   }
 }
