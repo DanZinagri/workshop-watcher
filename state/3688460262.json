@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-08-31T22:50:02.301Z",
-  "count": 871,
+  "updatedAt": "2026-09-01T01:31:41.405Z",
+  "count": 873,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -874,6 +874,8 @@
     "3788718474": "Colony Epitaph",
     "3789670069": "Radius UI - Xenotypes",
     "3790129900": "Facial Animation Performance Patch",
-    "3791277458": "Peto Progression - Progression Storytellers"
+    "3791050729": "Less Annoying Minor Alerts",
+    "3791277458": "Peto Progression - Progression Storytellers",
+    "3792795811": "Apparel Painter"
   }
 }

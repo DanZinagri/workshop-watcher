@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-08-31T22:50:06.436Z",
-  "count": 226,
+  "updatedAt": "2026-09-01T01:31:45.087Z",
+  "count": 227,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -229,6 +229,7 @@
     "3786319835": "Glowing Eyes Height And Tick Fix",
     "3788600107": "Gerrymon's Misc Props: Adult Life",
     "3790361865": "Sin's Softer Hair Colors",
-    "3791107642": "Pumpkinlass: Veils and Scarves"
+    "3791107642": "Pumpkinlass: Veils and Scarves",
+    "3792233113": "Tattoo Face Scars"
   }
 }

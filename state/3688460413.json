@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-08-31T22:50:02.587Z",
-  "count": 464,
+  "updatedAt": "2026-09-01T01:31:43.262Z",
+  "count": 466,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -180,6 +180,7 @@
     "3222694245": "Phase Weaponry",
     "3223443793": "Integrated Implants",
     "3227008885": "Luciferium Expansion",
+    "3228086397": "Charmweaver: Pregnancy Precepts",
     "3228637524": "Rimsenal Xenotype Pack - Harana",
     "3229318714": "Metalhorror Immunity Gene",
     "3234422589": "Anomaly Fleshbeasts or Sarg Fleshbeasts?",
@@ -467,6 +468,7 @@
     "3788730287": "More Coilguns Mod",
     "3789304104": "[sbz] Bookcase",
     "3789536584": "Hospitality + Ideology Patch",
-    "3792325789": "Apex Mechanoids"
+    "3792325789": "Apex Mechanoids",
+    "3793533339": "Infiltrator Protocol"
   }
 }
