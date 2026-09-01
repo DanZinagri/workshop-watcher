@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-09-01T19:37:09.668Z",
-  "count": 469,
+  "updatedAt": "2026-09-01T22:03:18.945Z",
+  "count": 470,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -472,6 +472,7 @@
     "3789536584": "Hospitality + Ideology Patch",
     "3791527651": "Carrion Eater Gene",
     "3792325789": "Apex Mechanoids",
-    "3793533339": "Infiltrator Protocol"
+    "3793533339": "Infiltrator Protocol",
+    "3793846993": "Power Poles uninstall fix"
   }
 }
