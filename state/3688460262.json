@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-09-02T22:27:42.453Z",
-  "count": 876,
+  "updatedAt": "2026-09-03T00:34:07.482Z",
+  "count": 877,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -879,6 +879,7 @@
     "3791277458": "Peto Progression - Progression Storytellers",
     "3792610727": "Please use the pews ! (Ritual Seats Range Fix)",
     "3792795811": "Apparel Painter",
-    "3793919395": "Confirm Quit to OS"
+    "3793919395": "Confirm Quit to OS",
+    "3794747458": "Localizer"
   }
 }
