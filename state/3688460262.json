@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-09-03T13:54:10.768Z",
-  "count": 877,
+  "updatedAt": "2026-09-03T17:38:13.162Z",
+  "count": 878,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -880,6 +880,7 @@
     "3792610727": "Please use the pews ! (Ritual Seats Range Fix)",
     "3792795811": "Apparel Painter",
     "3793919395": "Confirm Quit to OS",
-    "3794747458": "Localizer"
+    "3794747458": "Localizer",
+    "3794903743": "Artisan Experience"
   }
 }
