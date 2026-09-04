@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-09-04T00:23:38.218Z",
-  "count": 177,
+  "updatedAt": "2026-09-04T04:56:21.075Z",
+  "count": 178,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -180,6 +180,7 @@
     "3787806055": "Radius UI - Needs Tab",
     "3788256848": "Radius UI - Mission Control",
     "3789670069": "Radius UI - Xenotypes",
-    "3795221508": "Big and Small - Centaurs Expanded"
+    "3795221508": "Big and Small - Centaurs Expanded",
+    "3795300753": "Warcasket Workshop"
   }
 }
