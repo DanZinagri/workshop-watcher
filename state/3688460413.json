@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-09-06T00:01:10.125Z",
-  "count": 472,
+  "updatedAt": "2026-09-06T04:29:05.549Z",
+  "count": 475,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -351,6 +351,7 @@
     "3589157997": "Bionic modularity - animals",
     "3590516685": "Vanilla Cooking Expanded - Bakery",
     "3592047709": "Bundle of Trinkets",
+    "3595247479": "ChezhouLib",
     "3596468709": "Dark Psychic Rituals: The Following",
     "3597129303": "Persona Warcasket Weapons (1.6 temp)",
     "3597814862": "Muriden - Xenotype Project",
@@ -411,6 +412,7 @@
     "3708558259": "Rimmessian Fox",
     "3712538846": "Medieval Overhaul: House Ignivar",
     "3713354466": "Medical Expansion - Addiction Treatment",
+    "3713982815": "LEVIATHANS:SANDWORM",
     "3714981583": "More Gravship Workbenches",
     "3717051546": "Gerrymon's Hot Spring Expanded",
     "3719172734": "Penguin Expansion",
@@ -475,6 +477,7 @@
     "3792325789": "Apex Mechanoids",
     "3793533339": "Infiltrator Protocol",
     "3793846993": "Power Poles uninstall fix",
-    "3795221508": "Big and Small - Centaurs Expanded"
+    "3795221508": "Big and Small - Centaurs Expanded",
+    "3796506579": "LEVIATHANS: HIVE LORD"
   }
 }
