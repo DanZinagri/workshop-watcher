@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-09-07T12:26:54.680Z",
+  "updatedAt": "2026-09-07T17:52:16.749Z",
   "count": 878,
   "items": {
     "728314182": "RT Fuse",
@@ -56,7 +56,6 @@
     "2009463077": "Harmony",
     "2011794898": "Beautiful Outdoors",
     "2013560306": "GroundClear",
-    "2016331497": "Damage Indicators [1.6]",
     "2016436324": "Vanilla Textures Expanded",
     "2017538067": "Food Alert (Continued)",
     "2018384424": "Royalty Tweaks",
@@ -344,7 +343,6 @@
     "3221610549": "Animal Medical Bed",
     "3221646589": "Turrets Shoot Hunting Predators",
     "3222738861": "Impassable Containment Structures",
-    "3225695697": "Consistent Gene Inheritance (1.6 VERSION)",
     "3226046759": "[lmgginspace] Force Do Job",
     "3226502149": "Unknown item 3226502149",
     "3227732522": "Caravan Ghouls",
@@ -874,6 +872,7 @@
     "3788686557": "Better Inspect Pane",
     "3788718474": "Colony Epitaph",
     "3789670069": "Radius UI - Xenotypes",
+    "3789796309": "[DR] Dream's Damage Indicators",
     "3790129900": "Facial Animation Performance Patch",
     "3791050729": "Less Annoying Minor Alerts",
     "3791277458": "Peto Progression - Progression Storytellers",
@@ -881,6 +880,7 @@
     "3792795811": "Apparel Painter",
     "3793919395": "Confirm Quit to OS",
     "3794747458": "Localizer",
-    "3794903743": "Artisan Experience"
+    "3794903743": "Artisan Experience",
+    "3796688140": "Rim is Ready"
   }
 }
