@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460262",
   "initialized": true,
-  "updatedAt": "2026-09-09T23:33:11.652Z",
-  "count": 882,
+  "updatedAt": "2026-09-10T01:25:50.068Z",
+  "count": 885,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -467,7 +467,6 @@
     "3419669410": "Death-Sentence",
     "3420948947": "Small Vehicle Add-ons",
     "3421951605": "Dependency Overdose Fix",
-    "3422293321": "Progression: Warfare",
     "3422991870": "Guarding Pawns - Subtle Spots",
     "3423264477": "[SR]Factional War (fork)",
     "3423798414": "Leaf Skirt",
@@ -798,6 +797,7 @@
     "3760716715": "Trauma and Integrity",
     "3761449697": "Chester Choose - Progression Storytellers",
     "3761561660": "More Informative Ideology",
+    "3761869362": "Psycasts²",
     "3761873351": "Apparel Policy Builder",
     "3762126187": "Modern Character Creator",
     "3762131739": "Cables and Plumbing - Spliced & Wyed",
@@ -885,6 +885,9 @@
     "3798082132": "Female Body Variants Continued",
     "3798549519": "Skunks - Continued",
     "3798550391": "Better Vomit - Continued",
-    "3798550797": "StarFix - Continued"
+    "3798550797": "StarFix - Continued",
+    "3798806138": "Simply More FPS",
+    "3798837810": "Progression: Arsenal",
+    "3798845290": "Progression: Ammunition"
   }
 }
