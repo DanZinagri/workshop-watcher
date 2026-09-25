@@ -1,7 +1,7 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-09-24T23:23:29.872Z",
+  "updatedAt": "2026-09-25T01:44:35.670Z",
   "count": 193,
   "items": {
     "1447140290": "OgreStack",
@@ -70,7 +70,6 @@
     "3457332499": "VPE - Bugmancer",
     "3458481103": "VPE - Awoken Gauranlen",
     "3463270186": "Metabolic Efficiency Uncapped",
-    "3465460387": "VRE Highmate Ear Retexture, Fur Patch and Low-Res Remover",
     "3473700181": "Crypto Arsenal",
     "3474244421": "Short Social Fight",
     "3483685923": "Medieval Coastal Outfits",
@@ -196,6 +195,7 @@
     "3801332787": "Radius UI - Everywhere",
     "3801930501": "Even More Scrubdaddy's Bodies",
     "3802375059": "Big and Small - Catfolk",
-    "3804737796": "Rustic Neutroamine"
+    "3804737796": "Rustic Neutroamine",
+    "3807566972": "VRE Highmate Catfolk Patch"
   }
 }
