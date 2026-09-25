@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-09-25T01:44:35.670Z",
-  "count": 193,
+  "updatedAt": "2026-09-25T06:42:42.004Z",
+  "count": 196,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -62,6 +62,8 @@
     "3308076464": "Kidnapped Pawns Die Less",
     "3328812977": "Big and Small - Xeno Insectoid Hive",
     "3333608025": "Snow IS Beautiful!",
+    "3346656077": "Urn Retexture and Variation",
+    "3355669039": "Expanded Biotech Style Abilities",
     "3378134602": "TastyHemo (Continued)",
     "3386164757": "Stellic Arsenal",
     "3422946483": "Better Ambushes Continued",
@@ -195,6 +197,7 @@
     "3801332787": "Radius UI - Everywhere",
     "3801930501": "Even More Scrubdaddy's Bodies",
     "3802375059": "Big and Small - Catfolk",
+    "3804314554": "VFE - Imperial and Deserter Shuttles",
     "3804737796": "Rustic Neutroamine",
     "3807566972": "VRE Highmate Catfolk Patch"
   }
