@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-09-27T05:45:44.907Z",
-  "count": 198,
+  "updatedAt": "2026-09-27T10:50:19.299Z",
+  "count": 199,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -201,6 +201,7 @@
     "3804314554": "VFE - Imperial and Deserter Shuttles",
     "3804737796": "Rustic Neutroamine",
     "3806067517": "Astro Hairs",
-    "3807566972": "VRE Highmate Catfolk Patch"
+    "3807566972": "VRE Highmate Catfolk Patch",
+    "3808891681": "Big and Small Furniture - More Medieval Overhaul Beds"
   }
 }
