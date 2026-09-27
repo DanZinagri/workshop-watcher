@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-09-27T00:35:47.077Z",
+  "updatedAt": "2026-09-27T05:45:49.526Z",
   "count": 236,
   "items": {
     "725949967": "Rimsenal - Hair pack",
@@ -57,7 +57,6 @@
     "2928487698": "Gallatross and Friends Retextured",
     "2937276828": "Victorian decorations",
     "2937387968": "Preschooler Clothes",
-    "2944488802": "Melee Animation",
     "2961314564": "Morphs Assorted: Tattoos",
     "2967087032": "Medieval Overhaul Extra Signs",
     "2981211719": "[MUS]捕鱼装饰 FishingDecorative",
@@ -144,7 +143,6 @@
     "3538207880": "Cute Boy Hairstyles",
     "3539609975": "Better Trees",
     "3539790957": "Cannibal Pirates Style Expansion 1.6 (Temp)",
-    "3541917234": "Melee Animation Vanilla",
     "3543705507": "Better Trees: More Djeeshka Like Textures",
     "3560450391": "Tacticool Ops",
     "3561610873": "Injury Texture Variety",
@@ -232,6 +230,7 @@
     "3790361865": "Sin's Softer Hair Colors",
     "3791107642": "Pumpkinlass: Veils and Scarves",
     "3792233113": "Tattoo Face Scars",
+    "3793154978": "Flourish",
     "3795300753": "Warcasket Workshop",
     "3797400517": "Gerrymon's Misc Props: Fences",
     "3799924005": "Photo Mode",
@@ -239,6 +238,7 @@
     "3801930501": "Even More Scrubdaddy's Bodies",
     "3804314554": "VFE - Imperial and Deserter Shuttles",
     "3804725455": "Rustic Workbenches as Ideology Style",
-    "3804737796": "Rustic Neutroamine"
+    "3804737796": "Rustic Neutroamine",
+    "3806067517": "Astro Hairs"
   }
 }
