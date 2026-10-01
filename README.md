@@ -10,7 +10,7 @@ Currently watching:
 | --- | --- | --- |
 | [Removals](https://steamcommunity.com/sharedfiles/filedetails/?id=3751557821) | `3751557821` | `DISCORD_WEBHOOK_URL` |
 | [Additions](https://steamcommunity.com/sharedfiles/filedetails/?id=3751562522) | `3751562522` | `DISCORD_WEBHOOK_URL` |
-| [Homebrew1](https://steamcommunity.com/sharedfiles/filedetails/?id=3688460262) | `3688460262` | `DISCORD_WEBHOOK_HOMEBREW` |
+| [Homebrew1](https://steamcommunity.com/sharedfiles/filedetails/?id=3811197034) | `3811197034` | `DISCORD_WEBHOOK_HOMEBREW` |
 | [Homebrew2](https://steamcommunity.com/sharedfiles/filedetails/?id=3688460413) | `3688460413` | `DISCORD_WEBHOOK_HOMEBREW` |
 | [Homebrew3](https://steamcommunity.com/sharedfiles/filedetails/?id=3688460510) | `3688460510` | `DISCORD_WEBHOOK_HOMEBREW` |
 
@@ -71,7 +71,7 @@ Edit `collections.json`:
 {
   "collections": [
     { "id": "3751557821", "label": "Removals", "webhook": "DISCORD_WEBHOOK_URL" },
-    { "id": "3688460262", "label": "Homebrew1", "webhook": "DISCORD_WEBHOOK_HOMEBREW" }
+    { "id": "3811197034", "label": "Homebrew1", "webhook": "DISCORD_WEBHOOK_HOMEBREW" }
   ]
 }
 ```
