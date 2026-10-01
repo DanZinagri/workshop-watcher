@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-01T08:59:48.632Z",
-  "count": 202,
+  "updatedAt": "2026-10-01T21:08:41.196Z",
+  "count": 203,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -205,6 +205,7 @@
     "3806038418": "Tech Robe",
     "3806067517": "Astro Hairs",
     "3807566972": "VRE Highmate Catfolk Patch",
-    "3810518822": "Flourish - Everyday Animations"
+    "3810518822": "Flourish - Everyday Animations",
+    "3811478407": "House ignivar patches"
   }
 }
