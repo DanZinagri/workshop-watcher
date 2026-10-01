@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-09-30T23:08:41.821Z",
-  "count": 199,
+  "updatedAt": "2026-10-01T02:10:10.569Z",
+  "count": 202,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -15,6 +15,7 @@
     "2206957172": "RimTraits - General Traits",
     "2260055393": "[Kit] Just A Flesh Wound",
     "2302739121": "[Kit] Graze up",
+    "2475965842": "Show Me Your Hands",
     "2569243583": "Tattoos Expanded",
     "2581693737": "[NL] Facial Animation - Experimentals",
     "2594468074": "Fish Traps",
@@ -60,6 +61,7 @@
     "3261317086": "Toggleable Readouts Continued",
     "3268178647": "UNAGI Facial Animation",
     "3271240549": "Facial Animation - Retexture",
+    "3302328100": "Nice Hands Retexture",
     "3308076464": "Kidnapped Pawns Die Less",
     "3328812977": "Big and Small - Xeno Insectoid Hive",
     "3333608025": "Snow IS Beautiful!",
@@ -202,6 +204,7 @@
     "3804737796": "Rustic Neutroamine",
     "3806067517": "Astro Hairs",
     "3807566972": "VRE Highmate Catfolk Patch",
-    "3808891681": "Big and Small Furniture - More Medieval Overhaul Beds"
+    "3808891681": "Big and Small Furniture - More Medieval Overhaul Beds",
+    "3810518822": "Flourish - Everyday Animations"
   }
 }

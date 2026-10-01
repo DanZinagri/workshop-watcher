@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-09-30T23:08:42.341Z",
-  "count": 490,
+  "updatedAt": "2026-10-01T02:10:12.770Z",
+  "count": 492,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -56,6 +56,7 @@
     "2454918354": "Vanilla Weapons Expanded - Non-Lethal",
     "2454918552": "Vanilla Weapons Expanded - Tribal",
     "2468543398": "Vanilla Fishing Expanded - Fishing Treasures AddOn",
+    "2475965842": "Show Me Your Hands",
     "2507086460": "Power Poles",
     "2545774148": "ReGrowth 2: Aspen",
     "2559958496": "T's Samurai Faction",
@@ -493,6 +494,7 @@
     "3805144466": "Sarcho Turtle",
     "3807566972": "VRE Highmate Catfolk Patch",
     "3807606852": "More Birds - Birds Beyond",
-    "3808891681": "Big and Small Furniture - More Medieval Overhaul Beds"
+    "3808891681": "Big and Small Furniture - More Medieval Overhaul Beds",
+    "3810518822": "Flourish - Everyday Animations"
   }
 }
