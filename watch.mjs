@@ -280,7 +280,12 @@ async function processCollection(config, webhookUrl) {
   }
 
   const isFirstRun = !prev.initialized;
-  await writeState(collectionId, nextItems);
+  // Only rewrite the snapshot when its contents change. Rewriting it every run
+  // bumps updatedAt, which turned every scheduled run into a commit.
+  const itemsChanged = JSON.stringify(nextItems) !== JSON.stringify(prev.items);
+  if (isFirstRun || BASELINE || itemsChanged) {
+    await writeState(collectionId, nextItems);
+  }
 
   if (isFirstRun || BASELINE) {
     console.log(
