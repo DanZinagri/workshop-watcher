@@ -16,10 +16,15 @@ Currently watching:
 
 ## How it works
 
-Every 5 minutes a workflow asks Steam for the current contents of each collection, diffs that
+Every 5 minutes the workflow asks Steam for the current contents of each collection, diffs that
 against the last snapshot stored in `state/`, and posts anything that changed to that collection's
 Discord webhook. The updated snapshot is committed back to the repo, so the diff survives between
-runs.
+checks.
+
+GitHub's cron turned out to be unreliable for this (it delivered as few as 5 runs a day), so the
+workflow doesn't depend on it. Each run stays up for about 5.5 hours checking every 5 minutes, then
+starts the next run itself. The cron schedule is only a backstop that restarts the chain if it
+breaks.
 
 This tracks **collection membership**, not mod version updates. If a mod already in the collection
 publishes a new version, that is not reported.
@@ -94,19 +99,25 @@ To stop watching one, delete its entry and its `state/<id>.json` file.
 
 ## Notes and limitations
 
-- **Timing.** Checks run every 5 minutes, which is GitHub's floor for cron. Scheduled runs are
-  best-effort and get delayed when the platform is busy, so expect an alert within roughly 5–15
-  minutes of a change. The cron is offset one minute off the boundary because `:00/:05/:10` is where
-  every other repo's jobs pile up.
-- **First run after creating the repo.** GitHub takes a while to activate a brand-new repo's
-  schedule — often 30–60 minutes, during which slots are silently skipped. This is one-time; use
-  **Run workflow** if you need a check before then.
-- **Free minutes.** Public repos get unlimited Actions minutes. On a private repo this uses roughly
-  900–1000 of the free 2000 minutes/month, so it fits but leaves less room for other workflows.
+- **Timing.** Expect an alert within about 5 minutes of a change. Every ~5.5 hours there's a gap of
+  a minute or so while one run hands off to the next.
+- **Starting and stopping.** **Run workflow** starts the chain (if one is already running, the new
+  run waits its turn). Cancelling the active run stops the hand-off, but the backstop schedule
+  will start it again. To stop it for good, use **Actions → Workshop Watcher → ⋯ → Disable
+  workflow**.
+- **Editing mid-run.** Each check pulls the latest `main` first, so changes to `collections.json`
+  or `watch.mjs` take effect within 5 minutes. Changes to the workflow file itself apply from the
+  next run.
+- **Discord failures.** If a post fails, the snapshot isn't updated, so the same change is retried
+  on the next check. A failure posts one error card, then stays quiet until a check succeeds or
+  the next run starts.
+- **Keep the repo public.** The runner is busy around the clock (~720 hours a month). Public repos
+  get unlimited Actions minutes. A private repo's free 2000 minutes would run out in about two
+  days.
 - **Dormancy.** GitHub disables schedules on repos with no activity for 60 days. Snapshot commits
   only happen when a collection actually changes, so the workflow also stamps the date into
-  `state/last-run.txt` — that's one commit a day, which is enough to keep the schedule alive even
-  if the collections sit untouched for months.
+  `state/last-run.txt` — that's one commit a day, which is enough to keep the backstop schedule
+  alive even if the collections sit untouched for months.
 - **Renames.** If a mod is renamed, alerts use the name recorded at the time it entered the
   collection.
 - **Deleted mods.** An item pulled from the Workshop entirely shows as `Unknown item <id>` if it was

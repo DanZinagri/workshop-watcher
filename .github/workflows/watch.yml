@@ -1,29 +1,39 @@
 name: Workshop Watcher
 
+# GitHub's cron is best-effort and only delivered a handful of runs a day
+# here, so each run now checks every 5 minutes for ~5.5 hours and then
+# starts its own successor. The schedule is only a backstop that restarts
+# the chain if it ever breaks.
 on:
   schedule:
-    # Every 5 minutes (GitHub's floor), offset one minute off the boundary.
-    # Everyone's */5 and */15 jobs queue at :00/:05/:10..., so starting at :01
-    # lands in a shorter queue. A skipped slot only costs 5 minutes now.
-    - cron: '1,6,11,16,21,26,31,36,41,46,51,56 * * * *'
+    - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
     inputs:
       baseline:
-        description: 'Re-snapshot collections without posting changes'
+        description: 'Re-snapshot collections without posting changes (first check only)'
         type: boolean
         default: false
 
 permissions:
-  contents: write
+  contents: write # commit snapshots
+  actions: write # start the next run
 
-# Never let two runs race on the state files.
+# One run at a time. A run that arrives while another is checking waits as
+# the single pending run, replacing any older pending one, so whichever run
+# ends up queued carries the chain on.
 concurrency:
   group: workshop-watcher
   cancel-in-progress: false
 
+env:
+  CHECK_INTERVAL_SECONDS: 300
+  # Jobs are killed at 6 hours. Leave room for setup and the hand-off.
+  LOOP_MINUTES: 330
+
 jobs:
   watch:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v7
 
@@ -31,32 +41,54 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Check collections
-        run: node watch.mjs ${{ inputs.baseline && '--baseline' || '' }}
+      - name: Check collections every 5 minutes
+        timeout-minutes: 345
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_WEBHOOK_HOMEBREW: ${{ secrets.DISCORD_WEBHOOK_HOMEBREW }}
-
-      # GitHub disables scheduled workflows after 60 days with no repo
-      # activity. Snapshot commits only happen when a collection actually
-      # changes, so a quiet stretch would silently kill the schedule. Writing
-      # the date (not the time) guarantees at most one extra commit per day.
-      - name: Heartbeat
-        if: always()
-        run: date -u +%Y-%m-%d > state/last-run.txt
-
-      # Runs even if the check failed, so a partial success still records
-      # its snapshot and doesn't re-alert on the next run.
-      - name: Save snapshots
-        if: always()
+          FIRST_ARGS: ${{ inputs.baseline && '--baseline' || '' }}
         run: |
           git config user.name 'workshop-watcher'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add state
-          if git diff --staged --quiet; then
-            echo 'No snapshot changes.'
-            exit 0
-          fi
-          git commit -m 'state: update collection snapshots [skip ci]'
-          git pull --rebase --autostash
-          git push
+
+          sync() {
+            git pull --rebase --autostash -q || { git rebase --abort 2>/dev/null; echo '::warning::git pull failed'; }
+          }
+
+          deadline=$(( $(date +%s) + LOOP_MINUTES * 60 ))
+          args="$FIRST_ARGS"
+          quiet=''
+          while :; do
+            started=$(date +%s)
+            # Pick up edits to collections.json / watch.mjs pushed mid-run.
+            sync
+
+            if WATCHER_QUIET_ERRORS="$quiet" node watch.mjs $args; then quiet=''; else quiet=1; fi
+            args=''
+
+            # Keeps the repo active so GitHub never disables the backstop
+            # schedule; changes at most once a day.
+            date -u +%Y-%m-%d > state/last-run.txt
+
+            # Saved even after a failed check, so a partial success records
+            # its snapshot and doesn't re-alert next time.
+            git add state
+            if ! git diff --staged --quiet; then
+              git commit -q -m 'state: update collection snapshots [skip ci]'
+              sync
+              git push -q || echo '::warning::push failed; will retry after the next check'
+            fi
+
+            next=$(( started + CHECK_INTERVAL_SECONDS ))
+            if [ "$next" -ge "$deadline" ]; then break; fi
+            wait=$(( next - $(date +%s) ))
+            if [ "$wait" -gt 0 ]; then sleep "$wait"; fi
+          done
+
+      # Skipped when a run is cancelled, so cancelling the active run in the
+      # Actions tab stops the chain (until the backstop schedule fires).
+      - name: Start the next run
+        if: success() || failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run watch.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME"

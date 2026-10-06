@@ -28,6 +28,9 @@ const DESC_BUDGET = 2400;
 const MESSAGE_BUDGET = 5500;
 const MAX_EMBEDS_PER_MESSAGE = 10;
 const BASELINE = process.argv.includes('--baseline');
+// Set by the workflow loop after a failed check, so an outage that lasts
+// hours posts one error card instead of one every five minutes.
+const QUIET_ERRORS = process.env.WATCHER_QUIET_ERRORS === '1';
 
 // Changes this small get one card per mod (image, blurb, subscribers). Bigger
 // ones fall back to a compact link list so a mass edit doesn't flood the channel.
@@ -329,8 +332,12 @@ async function processCollection(config, webhookUrl) {
   const isFirstRun = !prev.initialized;
   // Only rewrite the snapshot when its contents change. Rewriting it every run
   // bumps updatedAt, which turned every scheduled run into a commit.
+  // When there's something to announce, the snapshot is saved only after the
+  // post succeeds, so a Discord failure gets retried on the next check
+  // instead of the change being silently absorbed.
   const itemsChanged = JSON.stringify(nextItems) !== JSON.stringify(prev.items);
-  if (isFirstRun || BASELINE || itemsChanged) {
+  const hasAlert = !isFirstRun && !BASELINE && (addedIds.length || removedIds.length);
+  if (!hasAlert && (isFirstRun || BASELINE || itemsChanged)) {
     await writeState(collectionId, nextItems);
   }
 
@@ -369,6 +376,7 @@ async function processCollection(config, webhookUrl) {
     embeds = buildEmbeds({ label, collectionId, added, removed });
   }
   await postToDiscord(webhookUrl, embeds);
+  await writeState(collectionId, nextItems);
 
   console.log(`${label}: +${added.length} / -${removed.length} (now ${currentIds.length} items)`);
   return { label, changed: true, added: added.length, removed: removed.length };
@@ -450,6 +458,11 @@ async function main() {
       timestamp: new Date().toISOString(),
     }),
   );
+
+  if (failures.length && QUIET_ERRORS) {
+    console.error('Still failing; error already posted earlier in this run, not posting again.');
+    process.exit(1);
+  }
 
   if (failures.length) {
     // Report each failure to the webhook that collection belongs to, so a
