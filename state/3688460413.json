@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-05T02:04:14.380Z",
-  "count": 509,
+  "updatedAt": "2026-10-06T09:54:25.372Z",
+  "count": 510,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -512,6 +512,7 @@
     "3810340667": "Many Many Many Mods Modularized - Convergence - Other",
     "3810343709": "Many Many Many Mods Modularized - Integrations - Other",
     "3810518822": "Flourish - Everyday Animations",
-    "3811478407": "House ignivar patches"
+    "3811478407": "House ignivar patches",
+    "3814428597": "Shipcracker Warcasket"
   }
 }

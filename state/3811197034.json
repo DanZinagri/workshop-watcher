@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-04T06:25:49.947Z",
+  "updatedAt": "2026-10-06T09:54:23.449Z",
   "count": 881,
   "items": {
     "728314182": "RT Fuse",
@@ -385,7 +385,6 @@
     "3276562906": "Gerrymon's Upscaled Vanilla Textures",
     "3276642170": "Rimworld: Soundscape Enhanced",
     "3278460897": "Thunderstorm",
-    "3280480860": "Too Many Areas (Continued)",
     "3280637253": "Perspective: Paths Continued",
     "3282003939": "Garage Doors Expanded",
     "3283859881": "Vanilla + Wall Vitals Monitors Retexture",
@@ -867,6 +866,7 @@
     "3793919395": "Confirm Quit to OS",
     "3794747458": "Localizer",
     "3794903743": "Artisan Experience",
+    "3795310579": "VPE Shrunk Psycast Tooltip Fix",
     "3796610291": "[DR] Build Outline（占地描边）",
     "3796688140": "Rim is Ready",
     "3798082132": "Female Body Variants Continued",
