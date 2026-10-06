@@ -24,6 +24,11 @@ runs.
 This tracks **collection membership**, not mod version updates. If a mod already in the collection
 publishes a new version, that is not reported.
 
+When 10 or fewer mods change in a collection at once, each one gets its own card: Workshop
+thumbnail, the opening of its description, and subscriber count, green for added and red for
+removed. Bigger changes fall back to a single compact list of links so a mass edit doesn't flood
+the channel (`RICH_EMBED_LIMIT` in `watch.mjs`).
+
 ## Setup
 
 ### 1. Create the Discord webhooks

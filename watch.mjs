@@ -29,6 +29,11 @@ const MESSAGE_BUDGET = 5500;
 const MAX_EMBEDS_PER_MESSAGE = 10;
 const BASELINE = process.argv.includes('--baseline');
 
+// Changes this small get one card per mod (image, blurb, subscribers). Bigger
+// ones fall back to a compact link list so a mass edit doesn't flood the channel.
+const RICH_EMBED_LIMIT = 10;
+const BLURB_LENGTH = 200;
+
 // Collections without an explicit "webhook" in collections.json post here.
 const DEFAULT_WEBHOOK_ENV = 'DISCORD_WEBHOOK_URL';
 
@@ -76,9 +81,9 @@ async function fetchCollectionItemIds(collectionId) {
   return (details.children ?? []).map((c) => String(c.publishedfileid));
 }
 
-/** Map of id -> title. Items Steam can't resolve are omitted. */
-async function fetchItemTitles(ids) {
-  const titles = new Map();
+/** Map of id -> { title, preview, description, subscriptions }. Items Steam can't resolve are omitted. */
+async function fetchItemDetails(ids) {
+  const details = new Map();
   for (let i = 0; i < ids.length; i += 100) {
     const chunk = ids.slice(i, i + 100);
     const params = { itemcount: chunk.length };
@@ -88,11 +93,18 @@ async function fetchItemTitles(ids) {
     const res = await steamPost('/ISteamRemoteStorage/GetPublishedFileDetails/v1/', params);
     for (const item of res.publishedfiledetails ?? []) {
       if (Number(item.result) === 1 && item.title) {
-        titles.set(String(item.publishedfileid), item.title);
+        details.set(String(item.publishedfileid), {
+          title: item.title,
+          preview: item.preview_url || null,
+          description: item.description ?? '',
+          subscriptions: Number.isFinite(Number(item.subscriptions))
+            ? Number(item.subscriptions)
+            : null,
+        });
       }
     }
   }
-  return titles;
+  return details;
 }
 
 async function readState(collectionId) {
@@ -247,6 +259,41 @@ function buildEmbeds({ label, collectionId, added, removed }) {
   return embeds;
 }
 
+/** Plain-text opening of a Workshop description: BBCode, URLs and whitespace runs removed. */
+function blurb(description) {
+  const text = String(description ?? '')
+    .replace(/\[\/?[^\]]*\]/g, ' ')
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (text.length <= BLURB_LENGTH) return text;
+  return `${text.slice(0, BLURB_LENGTH).replace(/\s+\S*$/, '')}…`;
+}
+
+/** One card per mod, styled like Discord's own Steam link preview. */
+function buildItemEmbeds({ label, collectionId, added, removed, details }) {
+  const timestamp = new Date().toISOString();
+  const card = ([id, title], action, color) => {
+    const info = details.get(id);
+    const name = info?.title ?? title ?? `Unknown item ${id}`;
+    const subs = info?.subscriptions;
+    return {
+      author: { name: `${action} ${label}`.slice(0, 256), url: itemUrl(collectionId) },
+      title: name.slice(0, 256),
+      url: itemUrl(id),
+      color,
+      ...(info?.description && blurb(info.description) ? { description: blurb(info.description) } : {}),
+      ...(info?.preview ? { thumbnail: { url: info.preview } } : {}),
+      ...(subs != null ? { footer: { text: `${subs.toLocaleString('en-US')} subscribers` } } : {}),
+      timestamp,
+    };
+  };
+  return [
+    ...added.map((entry) => card(entry, 'Added to', COLOR.added)),
+    ...removed.map((entry) => card(entry, 'Removed from', COLOR.removed)),
+  ];
+}
+
 async function processCollection(config, webhookUrl) {
   const collectionId = String(config.id);
   const label = config.label ?? `Collection ${collectionId}`;
@@ -272,11 +319,11 @@ async function processCollection(config, webhookUrl) {
   // Also re-resolve anything we previously failed to name.
   const unresolved = currentIds.filter((id) => prev.items[id]?.startsWith('Unknown item '));
   const lookupIds = [...new Set([...addedIds, ...unresolved])];
-  const fetchedTitles = lookupIds.length ? await fetchItemTitles(lookupIds) : new Map();
+  const fetched = lookupIds.length ? await fetchItemDetails(lookupIds) : new Map();
 
   const nextItems = {};
   for (const id of currentIds) {
-    nextItems[id] = fetchedTitles.get(id) ?? prev.items[id] ?? `Unknown item ${id}`;
+    nextItems[id] = fetched.get(id)?.title ?? prev.items[id] ?? `Unknown item ${id}`;
   }
 
   const isFirstRun = !prev.initialized;
@@ -305,7 +352,22 @@ async function processCollection(config, webhookUrl) {
 
   const added = addedIds.map((id) => [id, nextItems[id]]);
   const removed = removedIds.map((id) => [id, prev.items[id]]);
-  const embeds = buildEmbeds({ label, collectionId, added, removed });
+  let embeds;
+  if (added.length + removed.length <= RICH_EMBED_LIMIT) {
+    // Removed mods weren't looked up above. Most are still on the Workshop, so
+    // try for a picture; if Steam won't answer, the card just shows the name.
+    const details = new Map(fetched);
+    if (removedIds.length) {
+      try {
+        for (const [id, info] of await fetchItemDetails(removedIds)) details.set(id, info);
+      } catch (err) {
+        console.warn(`${label}: could not fetch removed item details (${err.message})`);
+      }
+    }
+    embeds = buildItemEmbeds({ label, collectionId, added, removed, details });
+  } else {
+    embeds = buildEmbeds({ label, collectionId, added, removed });
+  }
   await postToDiscord(webhookUrl, embeds);
 
   console.log(`${label}: +${added.length} / -${removed.length} (now ${currentIds.length} items)`);
