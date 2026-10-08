@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-08T03:35:59.235Z",
+  "updatedAt": "2026-10-08T14:22:03.407Z",
   "count": 882,
   "items": {
     "728314182": "RT Fuse",
@@ -385,7 +385,6 @@
     "3276562906": "Gerrymon's Upscaled Vanilla Textures",
     "3276642170": "Rimworld: Soundscape Enhanced",
     "3278460897": "Thunderstorm",
-    "3280637253": "Perspective: Paths Continued",
     "3282003939": "Garage Doors Expanded",
     "3283859881": "Vanilla + Wall Vitals Monitors Retexture",
     "3285440328": "Neural Supercharger Ownership",
@@ -885,6 +884,7 @@
     "3809376831": "Inject Genes Retextured (1.6 Reupload)",
     "3809985752": "Rules of Engagement",
     "3810687197": "What Did I Just Add",
+    "3815430443": "Neat Edges",
     "3815624891": "Name Colony At Start"
   }
 }
