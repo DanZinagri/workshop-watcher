@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-08T14:47:02.402Z",
+  "updatedAt": "2026-10-08T20:42:15.646Z",
   "count": 510,
   "items": {
     "937759575": "Fahrenheit and Celsius",
@@ -244,7 +244,6 @@
     "3418853181": "Mechanoid Invaders",
     "3422946483": "Better Ambushes Continued",
     "3429572581": "Det's Xenotypes - Brawnum",
-    "3430584657": "Proper Polearms",
     "3438366909": "Technical map Vehicles",
     "3446605621": "Pawns on Display",
     "3448319470": "Yaoma Storytellers - Farseer Fan",
@@ -485,6 +484,7 @@
     "3793533339": "Infiltrator Protocol",
     "3793846993": "Power Poles uninstall fix",
     "3795221508": "Big and Small - Centaurs Expanded",
+    "3796380591": "Medieval Overhaul: QoL & Fixes",
     "3796506579": "LEVIATHANS: HIVE LORD",
     "3797310379": "Biotech Monke Xenotype (Continued)",
     "3798109974": "Manipulator Beam Emitter Retexture",
