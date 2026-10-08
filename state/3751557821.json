@@ -1,10 +1,11 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-10-08T14:21:59.746Z",
-  "count": 96,
+  "updatedAt": "2026-10-08T19:42:13.452Z",
+  "count": 97,
   "items": {
     "712141500": "Animal Tab",
+    "858744731": "Reverse Commands",
     "1508850027": "RimHUD",
     "1542424705": "Ugh You Got Me",
     "1713367505": "RimSaves",
