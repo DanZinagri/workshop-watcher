@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-09T14:48:07.194Z",
+  "updatedAt": "2026-10-09T14:53:09.199Z",
   "count": 509,
   "items": {
     "937759575": "Fahrenheit and Celsius",
@@ -254,7 +254,6 @@
     "3455926746": "Non-Lethal: Re-Examined",
     "3456508582": "VPE - Horaxian",
     "3457023552": "Before the Crash: Backstories",
-    "3458481103": "VPE - Awoken Gauranlen",
     "3461526070": "Vanilla Quests Expanded - Cryptoforge",
     "3466810423": "Corpse Cleanup Ritual: Harbinger Feast",
     "3467913565": "VPE - Voidweaver",
@@ -511,6 +510,7 @@
     "3810343709": "Many Many Many Mods Modularized - Integrations - Other",
     "3810518822": "Flourish - Everyday Animations",
     "3811478407": "House ignivar patches",
+    "3813775015": "Landing Day Event",
     "3814428597": "Shipcracker Warcasket",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot"
   }
