@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-10T08:23:48.231Z",
+  "updatedAt": "2026-10-10T08:28:49.739Z",
   "count": 879,
   "items": {
     "728314182": "RT Fuse",
@@ -703,7 +703,6 @@
     "3696948139": "Better Context Menu",
     "3697920753": "Architect Menu Optimizer",
     "3705179186": "Medical Expansion - Vaccines",
-    "3705261001": "Research: Inflation",
     "3706000694": "Gene Extractor Log",
     "3706448581": "Beard Age Requirement",
     "3706877822": "Floor Pipette Tool",
@@ -882,6 +881,7 @@
     "3810687197": "What Did I Just Add",
     "3814657467": "Door Direction (One-Way Doors, Mod Doors Supported)",
     "3815430443": "Neat Edges",
-    "3815624891": "Name Colony At Start"
+    "3815624891": "Name Colony At Start",
+    "3816431081": "Jettison Corpses"
   }
 }
