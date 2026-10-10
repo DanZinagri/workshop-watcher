@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-09T15:03:07.298Z",
-  "count": 507,
+  "updatedAt": "2026-10-10T20:09:25.186Z",
+  "count": 505,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -278,7 +278,6 @@
     "3521016438": "Pesky's Bulwark Xenotype",
     "3521909777": "Erin's Fluffy Fauna",
     "3522676478": "Glittertech Expansion",
-    "3522734130": "HarbingerKin - Phytokin",
     "3522762741": "Transparent Substructure",
     "3526042587": "Medieval Overhaul: House Roxmont",
     "3526559471": "VPE - Gravcaster",
@@ -401,7 +400,6 @@
     "3698816189": "Faction - Orbiters",
     "3701471570": "Pen Audit",
     "3702986666": "Medieval Overhaul Production Expansion and VE Factory Compatch",
-    "3703107323": "Archeankin - Phytokin",
     "3703511917": "VFE Factory Propane Patch",
     "3703688092": "Astrofuel gear",
     "3704140230": "Alien Worlds - Gloomworld",
@@ -469,7 +467,6 @@
     "3785184597": "VPE - Pyromancer",
     "3785541749": "Pack Your Craw",
     "3785816610": "Pack Your Craw (Retexture)",
-    "3786535436": "Archeankin (Retexture)",
     "3786620127": "Alien Worlds - Gas Giant",
     "3787608587": "Prowess Nerf",
     "3788730287": "More Coilguns Mod",
@@ -509,6 +506,7 @@
     "3810518822": "Flourish - Everyday Animations",
     "3811478407": "House ignivar patches",
     "3813775015": "Landing Day Event",
+    "3813857865": "More Phytokin Xenotypes",
     "3814428597": "Shipcracker Warcasket",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot"
   }
