@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-11T06:39:43.569Z",
-  "count": 879,
+  "updatedAt": "2026-10-11T06:49:43.011Z",
+  "count": 880,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -771,6 +771,7 @@
     "3756809055": "Free UI Scaling",
     "3757435365": "Trader Will Buy Search",
     "3757516418": "Most Skilled Bill Restriction",
+    "3757704214": "SquadKit",
     "3757947970": "Dev Mode Above Select Starting Site",
     "3758773902": "LiquidSFX",
     "3758899296": "Deep Pills",
