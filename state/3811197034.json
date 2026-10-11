@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-10T21:34:16.894Z",
-  "count": 880,
+  "updatedAt": "2026-10-11T06:39:43.569Z",
+  "count": 879,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -844,7 +844,6 @@
     "3787239201": "Gravship Fleet",
     "3787598088": "Ghouls Can Clean And Haul",
     "3787736781": "Capture Expansion",
-    "3787806055": "Radius UI - Needs Tab",
     "3788225671": "Ammo Readout",
     "3788256848": "Radius UI - Mission Control",
     "3788512568": "Scenarios Menu Search",
