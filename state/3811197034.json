@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-11T06:49:43.011Z",
-  "count": 880,
+  "updatedAt": "2026-10-12T03:35:31.330Z",
+  "count": 881,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -883,6 +883,7 @@
     "3814657467": "Door Direction (One-Way Doors, Mod Doors Supported)",
     "3815430443": "Neat Edges",
     "3815624891": "Name Colony At Start",
-    "3816431081": "Jettison Corpses"
+    "3816431081": "Jettison Corpses",
+    "3816504827": "Keyed Job Priorities"
   }
 }
