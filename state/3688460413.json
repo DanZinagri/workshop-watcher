@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-13T21:27:29.191Z",
-  "count": 504,
+  "updatedAt": "2026-10-13T22:27:29.323Z",
+  "count": 505,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -507,6 +507,7 @@
     "3814428597": "Shipcracker Warcasket",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot",
     "3817723239": "Starlet Xenotype",
-    "3819264064": "Nuzzle Integration"
+    "3819264064": "Nuzzle Integration",
+    "3819377547": "Starjack - Astrogene Whitelist"
   }
 }

@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-13T21:27:27.243Z",
-  "count": 215,
+  "updatedAt": "2026-10-13T22:27:27.296Z",
+  "count": 216,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -218,6 +218,7 @@
     "3815430443": "Neat Edges",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
-    "3819264064": "Nuzzle Integration"
+    "3819264064": "Nuzzle Integration",
+    "3819377547": "Starjack - Astrogene Whitelist"
   }
 }
