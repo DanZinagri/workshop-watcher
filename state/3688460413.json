@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-14T01:27:30.073Z",
-  "count": 504,
+  "updatedAt": "2026-10-14T02:52:43.288Z",
+  "count": 505,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -507,6 +507,7 @@
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot",
     "3817723239": "Starlet Xenotype",
     "3819264064": "Nuzzle Integration",
-    "3819377547": "Starjack - Astrogene Whitelist"
+    "3819377547": "Starjack - Astrogene Whitelist",
+    "3819471772": "Many Many Many Mods Modularized - Integrations - Animals"
   }
 }
