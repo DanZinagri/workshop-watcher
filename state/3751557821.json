@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-10-14T19:48:15.768Z",
-  "count": 103,
+  "updatedAt": "2026-10-14T20:08:15.818Z",
+  "count": 104,
   "items": {
     "712141500": "Animal Tab",
     "858744731": "Reverse Commands",
@@ -93,6 +93,7 @@
     "3742391245": "Beliar Facial Animations",
     "3742926690": "Modern Faction Menu",
     "3745672274": "VPE - Anima (Retexture)",
+    "3749200746": "TakeCover",
     "3751293981": "Alpha Genes Facial Animation",
     "3752932665": "Modern Notifications",
     "3757952859": "Vanilla Factions Expanded - Classical - No Auto Research",
