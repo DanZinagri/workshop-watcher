@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-14T04:02:42.203Z",
-  "count": 506,
+  "updatedAt": "2026-10-14T04:12:41.366Z",
+  "count": 507,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -509,6 +509,7 @@
     "3819264064": "Nuzzle Integration",
     "3819377547": "Starjack - Astrogene Whitelist",
     "3819471772": "Many Many Many Mods Modularized - Integrations - Animals",
-    "3819490633": "Alpha Genes - Germline Mutator Blacklist"
+    "3819490633": "Alpha Genes - Germline Mutator Blacklist",
+    "3819492605": "VQE Ancients - Archogen Injector Whitelist"
   }
 }

@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-14T04:02:40.153Z",
-  "count": 217,
+  "updatedAt": "2026-10-14T04:12:39.686Z",
+  "count": 218,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -220,6 +220,7 @@
     "3819264064": "Nuzzle Integration",
     "3819377547": "Starjack - Astrogene Whitelist",
     "3819471772": "Many Many Many Mods Modularized - Integrations - Animals",
-    "3819490633": "Alpha Genes - Germline Mutator Blacklist"
+    "3819490633": "Alpha Genes - Germline Mutator Blacklist",
+    "3819492605": "VQE Ancients - Archogen Injector Whitelist"
   }
 }
