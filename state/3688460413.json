@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-14T02:52:43.288Z",
-  "count": 505,
+  "updatedAt": "2026-10-14T04:02:42.203Z",
+  "count": 506,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -508,6 +508,7 @@
     "3817723239": "Starlet Xenotype",
     "3819264064": "Nuzzle Integration",
     "3819377547": "Starjack - Astrogene Whitelist",
-    "3819471772": "Many Many Many Mods Modularized - Integrations - Animals"
+    "3819471772": "Many Many Many Mods Modularized - Integrations - Animals",
+    "3819490633": "Alpha Genes - Germline Mutator Blacklist"
   }
 }
