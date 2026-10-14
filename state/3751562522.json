@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-14T04:42:41.419Z",
-  "count": 219,
+  "updatedAt": "2026-10-14T05:17:39.626Z",
+  "count": 220,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -222,6 +222,7 @@
     "3819471772": "Many Many Many Mods Modularized - Integrations - Animals",
     "3819490633": "Alpha Genes - Germline Mutator Blacklist",
     "3819492605": "VQE Ancients - Archogen Injector Whitelist",
-    "3819501058": "More Shambler Xenotypes"
+    "3819501058": "More Shambler Xenotypes",
+    "3819509625": "Many Many Many Mods Modularized - Rebalances - Factions"
   }
 }

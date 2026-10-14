@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-13T21:02:27.680Z",
-  "count": 871,
+  "updatedAt": "2026-10-14T05:17:41.211Z",
+  "count": 872,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -874,6 +874,7 @@
     "3815624891": "Name Colony At Start",
     "3816431081": "Jettison Corpses",
     "3816504827": "Keyed Job Priorities",
-    "3819260529": "VFEM2 - Merchant Guild Landing Fix"
+    "3819260529": "VFEM2 - Merchant Guild Landing Fix",
+    "3819508584": "Surveillance Shift"
   }
 }
