@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-14T05:27:41.107Z",
-  "count": 512,
+  "updatedAt": "2026-10-14T05:32:41.945Z",
+  "count": 514,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -515,6 +515,8 @@
     "3819509625": "Many Many Many Mods Modularized - Rebalances - Factions",
     "3819511366": "Many Many Many Mods Modularized - Rebalances - Stronger Enemies",
     "3819512980": "Many Many Many Mods Modularized - Rebalances - Other",
-    "3819513703": "Many Many Many Mods Modularized - Rebalances - Traits"
+    "3819513703": "Many Many Many Mods Modularized - Rebalances - Traits",
+    "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
+    "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment"
   }
 }
