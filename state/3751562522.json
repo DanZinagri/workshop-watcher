@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-15T14:53:58.973Z",
-  "count": 225,
+  "updatedAt": "2026-10-15T19:44:09.174Z",
+  "count": 226,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -228,6 +228,7 @@
     "3819512980": "Many Many Many Mods Modularized - Rebalances - Other",
     "3819513703": "Many Many Many Mods Modularized - Rebalances - Traits",
     "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
-    "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment"
+    "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
+    "3820369944": "Biome Backdrops"
   }
 }
