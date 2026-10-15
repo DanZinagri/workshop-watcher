@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-15T09:48:44.159Z",
-  "count": 224,
+  "updatedAt": "2026-10-15T14:53:58.973Z",
+  "count": 225,
   "items": {
     "1447140290": "OgreStack",
     "1516158345": "Interaction Bubbles",
@@ -44,6 +44,7 @@
     "2997812588": "Mono Weapons Pack",
     "3016454783": "Gene Extractor Tiers",
     "3027202907": "Big and Small - Slimes",
+    "3038525914": "Dynamic Weapon Cooldown",
     "3070942578": "Plasma Weapons Pack",
     "3073163708": "Big and Small - Yokai",
     "3105907309": "Big and Small - Weapons",
