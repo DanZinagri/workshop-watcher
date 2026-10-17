@@ -1,7 +1,7 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-17T15:25:59.266Z",
+  "updatedAt": "2026-10-17T17:36:11.265Z",
   "count": 230,
   "items": {
     "1447140290": "OgreStack",
@@ -32,7 +32,6 @@
     "2888037450": "Industrial concrete",
     "2893432492": "[FSF] FrozenSnowFox Tweaks",
     "2894397737": "Big and Small - Races",
-    "2899127245": "Prioritize Meals over Preserved Foods",
     "2904976042": "Paramedics Feed Prisoners",
     "2908225858": "Big and Small - Lamias and other Snake-People",
     "2917322097": "HD Head Attatchments for Nals Facial Animation",
@@ -233,6 +232,7 @@
     "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
     "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
     "3820369944": "Biome Backdrops",
-    "3821202322": "Big and Small - Visible Pants Framework"
+    "3821202322": "Big and Small - Visible Pants Framework",
+    "3821644049": "Configurable Food Priority"
   }
 }

@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-17T07:30:48.748Z",
+  "updatedAt": "2026-10-17T17:36:13.592Z",
   "count": 871,
   "items": {
     "728314182": "RT Fuse",
@@ -213,7 +213,6 @@
     "2896052868": "Incident Person Stat (Continued)",
     "2898000489": "Prison Commons (Continued)",
     "2898408684": "Limit Quest Pawns",
-    "2899127245": "Prioritize Meals over Preserved Foods",
     "2899212140": "Scanning Thoughts",
     "2901424072": "Vanilla Races Expanded - Genie",
     "2901520677": "Show Weapon Tallies",
@@ -874,6 +873,7 @@
     "3816961380": "Storage HUD",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819508584": "Surveillance Shift",
-    "3819707781": "Progression: Bionics"
+    "3819707781": "Progression: Bionics",
+    "3821644049": "Configurable Food Priority"
   }
 }
