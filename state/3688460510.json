@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-10-15T19:44:11.410Z",
-  "count": 231,
+  "updatedAt": "2026-10-17T02:45:40.568Z",
+  "count": 235,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -12,6 +12,7 @@
     "2020779666": "AFU女士发型_Women's hairstyles",
     "2072106893": "AFU男士发型_Men's hairstyles",
     "2187064189": "Gloomy Dress (Unofficial)",
+    "2264108215": "[XND] Visible Pants",
     "2295386535": "Hair Extensions",
     "2354938860": "Erin's Japanese Furniture",
     "2361911135": "Erin's Hairstyles - Redux",
@@ -174,6 +175,7 @@
     "3704669419": "Koi's Mech-Androids for 1.6",
     "3705620674": "Alpha Genes - Forsaken Gear Retexture",
     "3706046839": "Aliaile Race Furniture",
+    "3707481634": "Medieval Visible Pants Addon",
     "3708199539": "Mechanoid Skins: Curvaceous",
     "3710288647": "Liya's Boy Hair",
     "3712465624": "Unknown item 3712465624",
@@ -208,6 +210,7 @@
     "3764089935": "Liya's Hair Part 3",
     "3766152968": "Upscaled - Vanilla Weapons Expanded",
     "3772571876": "Gerrymon's Misc Props: Dungeon",
+    "3772689105": "Pumpkinlass Visible Pants Retexture",
     "3774821567": "Show Me Your Tools - Forked",
     "3780458386": "Gerrymon's Misc Props: Graveyard",
     "3780787134": "Upscaled - VWE Quickdraw",
@@ -234,6 +237,7 @@
     "3806067517": "Astro Hairs",
     "3806903620": "Rimblings",
     "3813886095": "GF Hair Collection",
-    "3820369944": "Biome Backdrops"
+    "3820369944": "Biome Backdrops",
+    "3821202322": "Big and Small - Visible Pants Framework"
   }
 }
