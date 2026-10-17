@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-16T20:20:26.034Z",
-  "count": 515,
+  "updatedAt": "2026-10-17T01:00:41.649Z",
+  "count": 516,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -518,6 +518,7 @@
     "3819512980": "Many Many Many Mods Modularized - Rebalances - Other",
     "3819513703": "Many Many Many Mods Modularized - Rebalances - Traits",
     "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
-    "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment"
+    "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
+    "3821100591": "Toxin Warcasket"
   }
 }
