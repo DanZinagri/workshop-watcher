@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-17T02:50:36.830Z",
-  "count": 517,
+  "updatedAt": "2026-10-18T15:22:02.901Z",
+  "count": 521,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -348,6 +348,7 @@
     "3589998503": "VFE Pirates - More Warcaskets",
     "3590516685": "Vanilla Cooking Expanded - Bakery",
     "3592047709": "Bundle of Trinkets",
+    "3595247479": "ChezhouLib",
     "3596468709": "Dark Psychic Rituals: The Following",
     "3597129303": "Persona Warcasket Weapons (1.6 temp)",
     "3597814862": "Muriden - Xenotype Project",
@@ -408,6 +409,7 @@
     "3708558259": "Rimmessian Fox",
     "3712538846": "Medieval Overhaul: House Ignivar",
     "3713354466": "Medical Expansion - Addiction Treatment",
+    "3713982815": "LEVIATHANS:SANDWORM",
     "3714981583": "More Gravship Workbenches",
     "3716914639": "Vivid Rim - Needs Tab",
     "3717051546": "Gerrymon's Hot Spring Expanded",
@@ -477,6 +479,7 @@
     "3793846993": "Power Poles uninstall fix",
     "3795221508": "Big and Small - Centaurs Expanded",
     "3796380591": "Medieval Overhaul: QoL & Fixes",
+    "3796506579": "LEVIATHANS: HIVE LORD",
     "3797310379": "Biotech Monke Xenotype (Continued)",
     "3798109974": "Manipulator Beam Emitter Retexture",
     "3799758627": "Salvage Gravlock",
@@ -520,6 +523,7 @@
     "3819513703": "Many Many Many Mods Modularized - Rebalances - Traits",
     "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
     "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
+    "3819570122": "RimUnity",
     "3821100591": "Toxin Warcasket"
   }
 }
