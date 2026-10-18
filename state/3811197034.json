@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-18T16:57:01.317Z",
-  "count": 870,
+  "updatedAt": "2026-10-18T20:42:11.421Z",
+  "count": 871,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -873,6 +873,7 @@
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819508584": "Surveillance Shift",
     "3819707781": "Progression: Bionics",
-    "3821644049": "Configurable Food Priority"
+    "3821644049": "Configurable Food Priority",
+    "3822563678": "If It Can Haul, It Can Pack"
   }
 }
