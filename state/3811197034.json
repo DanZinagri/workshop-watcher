@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-19T08:02:40.417Z",
+  "updatedAt": "2026-10-19T17:07:52.854Z",
   "count": 872,
   "items": {
     "728314182": "RT Fuse",
@@ -575,7 +575,6 @@
     "3570531169": "Visual XML Patches",
     "3573196843": "Echoes of the Rim",
     "3573691945": "Nuzzle Me",
-    "3575480305": "Animal Tab (Continued 1.6)",
     "3577333297": "Meat on a Stick - Expansion",
     "3578212339": "Rimpsyche - Disposition",
     "3578444636": "1trickPwnyta's Odyssey Patch",
@@ -874,6 +873,7 @@
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819508584": "Surveillance Shift",
     "3819707781": "Progression: Bionics",
+    "3821183602": "Animal Tab — Unofficial Update",
     "3821644049": "Configurable Food Priority",
     "3822563678": "If It Can Haul, It Can Pack"
   }
