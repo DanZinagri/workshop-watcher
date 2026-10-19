@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-19T00:22:11.096Z",
-  "count": 872,
+  "updatedAt": "2026-10-19T06:42:25.301Z",
+  "count": 871,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -823,7 +823,6 @@
     "3784455797": "No Ambient Ducking",
     "3785523304": "Resurrect Animals (VPE Patch)",
     "3786107692": "Radius UI Framework",
-    "3786129210": "Radius UI - Health Tab",
     "3786131805": "Radius UI - Inspector",
     "3786840944": "Radius UI - Quest Menu",
     "3786945713": "Radius UI - Faction Menu",
