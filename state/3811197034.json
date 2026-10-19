@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-19T17:07:52.854Z",
-  "count": 872,
+  "updatedAt": "2026-10-19T21:58:05.190Z",
+  "count": 873,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -875,6 +875,7 @@
     "3819707781": "Progression: Bionics",
     "3821183602": "Animal Tab — Unofficial Update",
     "3821644049": "Configurable Food Priority",
-    "3822563678": "If It Can Haul, It Can Pack"
+    "3822563678": "If It Can Haul, It Can Pack",
+    "3823183073": "Dan's Mod Configs"
   }
 }
