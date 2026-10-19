@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-19T00:22:09.151Z",
-  "count": 232,
+  "updatedAt": "2026-10-19T01:42:26.333Z",
+  "count": 233,
   "items": {
     "1447140290": "OgreStack",
     "1778821244": "Non uno Pinata (don't drop items)",
@@ -235,6 +235,7 @@
     "3820369944": "Biome Backdrops",
     "3821202322": "Big and Small - Visible Pants Framework",
     "3821644049": "Configurable Food Priority",
+    "3822149552": "Hozen Xenotype",
     "3822563678": "If It Can Haul, It Can Pack"
   }
 }
