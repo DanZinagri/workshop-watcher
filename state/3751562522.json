@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-19T14:37:52.371Z",
-  "count": 233,
+  "updatedAt": "2026-10-19T14:42:50.947Z",
+  "count": 234,
   "items": {
     "1447140290": "OgreStack",
     "1778821244": "Non uno Pinata (don't drop items)",
@@ -219,6 +219,7 @@
     "3815430443": "Neat Edges",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot",
     "3816229815": "Gunplay (Forked)",
+    "3817820660": "RimMarket",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819264064": "Nuzzle Integration",
     "3819377547": "Starjack - Astrogene Whitelist",
