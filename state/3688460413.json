@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-19T21:58:07.016Z",
-  "count": 516,
+  "updatedAt": "2026-10-20T04:46:19.931Z",
+  "count": 517,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -519,6 +519,7 @@
     "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
     "3819570122": "RimUnity",
     "3821100591": "Toxin Warcasket",
-    "3822149552": "Hozen Xenotype"
+    "3822149552": "Hozen Xenotype",
+    "3823297618": "Big and Small - Harpies"
   }
 }
