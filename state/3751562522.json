@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-20T05:16:16.716Z",
-  "count": 239,
+  "updatedAt": "2026-10-21T07:07:27.687Z",
+  "count": 243,
   "items": {
     "1447140290": "OgreStack",
     "1778821244": "Non uno Pinata (don't drop items)",
@@ -68,6 +68,7 @@
     "3346656077": "Urn Retexture and Variation",
     "3355669039": "Expanded Biotech Style Abilities",
     "3378134602": "TastyHemo (Continued)",
+    "3379706406": "The Dead Man's Switch - Sisters Retexture",
     "3386164757": "Stellic Arsenal",
     "3386935298": "UNAGI Vanilla Hairs うなぎのバニラ髪",
     "3421959154": "Cinders of the Embergarden",
@@ -81,6 +82,7 @@
     "3474244421": "Short Social Fight",
     "3483685923": "Medieval Coastal Outfits",
     "3489491945": "Lactation Expansion",
+    "3498575851": "Fortified Features Framework",
     "3505241400": "Big and Small - Sapient Animals",
     "3524716849": "Keyz' Allow Utilities",
     "3527761432": "Deep Water Fishing",
@@ -233,6 +235,7 @@
     "3819513703": "Many Many Many Mods Modularized - Rebalances - Traits",
     "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
     "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
+    "3819799478": "The Dead Man's Switch II",
     "3820369944": "Biome Backdrops",
     "3821140192": "Yayo Animation 1.7 + Tick Fix",
     "3821183602": "Animal Tab — Unofficial Update",
@@ -242,6 +245,7 @@
     "3822149552": "Hozen Xenotype",
     "3822563678": "If It Can Haul, It Can Pack",
     "3823183073": "Dan's Mod Configs",
-    "3823297618": "Big and Small - Harpies"
+    "3823297618": "Big and Small - Harpies",
+    "3823577681": "DMS - Progression Robotics Compat"
   }
 }

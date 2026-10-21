@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-20T04:46:19.931Z",
-  "count": 517,
+  "updatedAt": "2026-10-21T07:07:29.512Z",
+  "count": 522,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -219,8 +219,10 @@
     "3366158950": "Ferny Frantic - Progression Storytellers",
     "3367948914": "Forsaken Faction For Alpha Genes",
     "3370165682": "Yaoma Storytellers - Deathless Daji",
+    "3374615241": "The Dead Man's Switch - Synthetic",
     "3375627095": "Mechanoid Upgrades - Anomaly",
     "3376864722": "Det's Xenotypes - Keshig",
+    "3379706406": "The Dead Man's Switch - Sisters Retexture",
     "3380776687": "Highborn Xenotype",
     "3382446150": "Alpha Crafts",
     "3386164757": "Stellic Arsenal",
@@ -262,6 +264,7 @@
     "3490848177": "[DHM]MyDogsHouse",
     "3497226454": "Vanilla Quests Expanded - Deadlife",
     "3497828669": "Memorial Stele",
+    "3498575851": "Fortified Features Framework",
     "3504125251": "Rimsenal Xenotype Pack - Zohar",
     "3505241400": "Big and Small - Sapient Animals",
     "3507626861": "HALO: Rimworld Psychic Pulse Armory (Continued)",
@@ -518,8 +521,10 @@
     "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
     "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
     "3819570122": "RimUnity",
+    "3819799478": "The Dead Man's Switch II",
     "3821100591": "Toxin Warcasket",
     "3822149552": "Hozen Xenotype",
-    "3823297618": "Big and Small - Harpies"
+    "3823297618": "Big and Small - Harpies",
+    "3823577681": "DMS - Progression Robotics Compat"
   }
 }
