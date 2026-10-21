@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-10-19T14:37:50.646Z",
-  "count": 111,
+  "updatedAt": "2026-10-21T05:17:27.617Z",
+  "count": 113,
   "items": {
     "712141500": "Animal Tab",
     "858744731": "Reverse Commands",
@@ -37,6 +37,7 @@
     "2952321484": "Hospitality: Storefront",
     "2971831654": "Hospitality: Spa",
     "3014885065": "Hospitality: Vending machines",
+    "3023336989": "Glowing eyes genes",
     "3033779606": "Vanilla Psycasts Expanded - Puppeteer",
     "3053650876": "Proselytizing Never",
     "3081507494": "Lovin' Is Messy (and fun)",
@@ -109,6 +110,7 @@
     "3769605642": "No Log On Startup",
     "3770971498": "Alien Head Gene FA Patch",
     "3781978940": "Bio Tab+",
+    "3786319835": "Glowing Eyes Height And Tick Fix",
     "3789407175": "Molong Xenotype",
     "3789484706": "Molong facial animations",
     "3789536584": "Hospitality + Ideology Patch",
