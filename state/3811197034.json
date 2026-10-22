@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-21T14:22:45.028Z",
+  "updatedAt": "2026-10-22T03:03:21.964Z",
   "count": 874,
   "items": {
     "728314182": "RT Fuse",
@@ -171,7 +171,6 @@
     "2860414285": "Vanilla Combat Reloaded",
     "2864015430": "Float Sub-Menus",
     "2865361569": "Clean Textures",
-    "2869098359": "Appliances Expanded",
     "2870045856": "Not My Fault",
     "2872901762": "All Ideoligions Are Fluid",
     "2873284405": "Skilled Slaughtering",
@@ -877,6 +876,7 @@
     "3821248395": "[NL] Facial Animation - 1.7 Compatibility Patch",
     "3821644049": "Configurable Food Priority",
     "3822563678": "If It Can Haul, It Can Pack",
+    "3822713111": "Chemfuel Appliances (forked)",
     "3823183073": "Dan's Mod Configs"
   }
 }
