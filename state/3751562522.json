@@ -1,10 +1,11 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-22T07:08:34.482Z",
-  "count": 245,
+  "updatedAt": "2026-10-22T16:53:47.177Z",
+  "count": 246,
   "items": {
     "1447140290": "OgreStack",
+    "1508850027": "RimHUD",
     "1778821244": "Non uno Pinata (don't drop items)",
     "1931453053": "More Vanilla Biomes",
     "2012774042": "Better Traders",

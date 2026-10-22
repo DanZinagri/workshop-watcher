@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-22T07:08:36.337Z",
-  "count": 873,
+  "updatedAt": "2026-10-22T16:53:49.080Z",
+  "count": 874,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -22,6 +22,7 @@
     "1499848654": "Toggle Harvest",
     "1504723424": "Smart Speed",
     "1506931205": "Tradable Meals",
+    "1508850027": "RimHUD",
     "1523796550": "Helpful Monkeys",
     "1541408076": "We Had a Trader? (Continued)",
     "1542765654": "AnimalHarvestingSpot (Continued)",
