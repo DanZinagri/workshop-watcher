@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-22T16:53:47.177Z",
-  "count": 246,
+  "updatedAt": "2026-10-22T21:16:04.637Z",
+  "count": 247,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -155,6 +155,7 @@
     "3742407509": "Itemization Overhaul - Runes & Socketables",
     "3742486404": "Itemization Overhaul - Uniques & Mythics",
     "3743049600": "Itemization Overhaul - Jewelry & Charms",
+    "3744208438": "True RPG Backpacks",
     "3745522952": "Biomes! Bees",
     "3745533292": "Spider Xenotypes - Big and Small Patch",
     "3745898024": "Minor VPE Psycast Tweaks",
