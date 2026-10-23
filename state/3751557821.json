@@ -1,11 +1,12 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-10-22T16:53:45.483Z",
-  "count": 114,
+  "updatedAt": "2026-10-23T05:46:15.606Z",
+  "count": 115,
   "items": {
     "712141500": "Animal Tab",
     "858744731": "Reverse Commands",
+    "935982361": "Better Workbench Management",
     "1542424705": "Ugh You Got Me",
     "1701592470": "Level Up!",
     "1713367505": "RimSaves",
