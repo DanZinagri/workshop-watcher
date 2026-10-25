@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-23T17:36:59.132Z",
-  "count": 248,
+  "updatedAt": "2026-10-25T04:03:13.612Z",
+  "count": 249,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -251,6 +251,7 @@
     "3823297618": "Big and Small - Harpies",
     "3823577681": "DMS - Progression Robotics Compat",
     "3824378660": "Mechlink Reinforcement",
-    "3825432887": "Giddy-Up - Race Riding Restrictions"
+    "3825432887": "Giddy-Up - Race Riding Restrictions",
+    "3826713499": "Sanguophage Blood Tastes"
   }
 }
