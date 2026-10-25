@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-25T20:28:55.127Z",
-  "count": 526,
+  "updatedAt": "2026-10-25T20:33:56.307Z",
+  "count": 527,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -528,6 +528,7 @@
     "3823297618": "Big and Small - Harpies",
     "3823577681": "DMS - Progression Robotics Compat",
     "3824378660": "Mechlink Reinforcement",
+    "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
     "3827171332": "Big and Small - Fortified Features Framework patch"
   }

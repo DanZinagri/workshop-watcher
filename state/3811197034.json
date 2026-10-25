@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-25T17:53:41.314Z",
-  "count": 872,
+  "updatedAt": "2026-10-25T20:33:54.254Z",
+  "count": 873,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -868,6 +868,7 @@
     "3816961380": "Storage HUD",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819508584": "Surveillance Shift",
+    "3819555998": "Better Workbench Management - 1.7 Waylith (Unofficial)",
     "3819707781": "Progression: Bionics",
     "3821183602": "Animal Tab — Unofficial Update",
     "3821248395": "[NL] Facial Animation - 1.7 Compatibility Patch",

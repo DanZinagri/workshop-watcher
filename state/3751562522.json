@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-25T20:28:52.708Z",
-  "count": 251,
+  "updatedAt": "2026-10-25T20:33:52.493Z",
+  "count": 253,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -238,6 +238,7 @@
     "3819513703": "Many Many Many Mods Modularized - Rebalances - Traits",
     "3819514408": "Many Many Many Mods Modularized - Rebalances - Genetics",
     "3819514942": "Many Many Many Mods Modularized - Rebalances - Equipment",
+    "3819555998": "Better Workbench Management - 1.7 Waylith (Unofficial)",
     "3819799478": "The Dead Man's Switch II",
     "3820369944": "Biome Backdrops",
     "3821140192": "Yayo Animation 1.7 + Tick Fix",
@@ -253,6 +254,7 @@
     "3823577681": "DMS - Progression Robotics Compat",
     "3824378660": "Mechlink Reinforcement",
     "3825432887": "Giddy-Up - Race Riding Restrictions",
+    "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
     "3827171332": "Big and Small - Fortified Features Framework patch"
   }
