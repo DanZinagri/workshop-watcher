@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-25T06:48:14.382Z",
-  "count": 250,
+  "updatedAt": "2026-10-25T20:28:52.708Z",
+  "count": 251,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -253,6 +253,7 @@
     "3823577681": "DMS - Progression Robotics Compat",
     "3824378660": "Mechlink Reinforcement",
     "3825432887": "Giddy-Up - Race Riding Restrictions",
-    "3826713499": "Sanguophage Blood Tastes"
+    "3826713499": "Sanguophage Blood Tastes",
+    "3827171332": "Big and Small - Fortified Features Framework patch"
   }
 }
