@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-25T04:03:13.612Z",
-  "count": 249,
+  "updatedAt": "2026-10-25T06:48:14.382Z",
+  "count": 250,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -223,6 +223,7 @@
     "3815430443": "Neat Edges",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot",
     "3816229815": "Gunplay (Forked)",
+    "3817626085": "SG's Xenotype - Duskborne",
     "3817820660": "RimMarket",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819264064": "Nuzzle Integration",
