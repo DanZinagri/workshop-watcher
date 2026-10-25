@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-25T20:33:52.493Z",
-  "count": 253,
+  "updatedAt": "2026-10-25T21:23:52.569Z",
+  "count": 254,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -250,6 +250,7 @@
     "3822563678": "If It Can Haul, It Can Pack",
     "3822713111": "Chemfuel Appliances (forked)",
     "3823183073": "Dan's Mod Configs",
+    "3823256718": "Rimsenal Xenotype Pack - Dioktri",
     "3823297618": "Big and Small - Harpies",
     "3823577681": "DMS - Progression Robotics Compat",
     "3824378660": "Mechlink Reinforcement",
