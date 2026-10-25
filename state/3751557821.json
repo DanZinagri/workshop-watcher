@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-10-24T01:42:13.516Z",
-  "count": 116,
+  "updatedAt": "2026-10-25T17:53:38.998Z",
+  "count": 118,
   "items": {
     "712141500": "Animal Tab",
     "858744731": "Reverse Commands",
@@ -93,6 +93,7 @@
     "3585375106": "Mechanoid Waiter",
     "3587761388": "Reese's Dirtmole Glowup",
     "3596481890": "Gene-Ripper Gene",
+    "3597400817": "[MERGED] LusTech Unique Weapons",
     "3611982780": "Unknown item 3611982780",
     "3650731058": "Worship of Moloch",
     "3667814780": "Reese's Dirtmole Glowup - VE Facial Animation Support",
@@ -107,6 +108,7 @@
     "3742926690": "Modern Faction Menu",
     "3745672274": "VPE - Anima (Retexture)",
     "3749200746": "TakeCover",
+    "3750587891": "[MERGED] LusTech VWE Coilguns Retexture",
     "3751293981": "Alpha Genes Facial Animation",
     "3757952859": "Vanilla Factions Expanded - Classical - No Auto Research",
     "3768829403": "Alien Head Gene",
