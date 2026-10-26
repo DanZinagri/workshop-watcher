@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-25T22:03:54.341Z",
-  "count": 873,
+  "updatedAt": "2026-10-26T01:24:06.881Z",
+  "count": 874,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -866,6 +866,7 @@
     "3816431081": "Jettison Corpses",
     "3816504827": "Keyed Job Priorities",
     "3816961380": "Storage HUD",
+    "3817423183": "RimWorld Loading Optimizer (RLO)",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819508584": "Surveillance Shift",
     "3819555998": "Better Workbench Management - 1.7 Waylith (Unofficial)",

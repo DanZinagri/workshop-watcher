@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-25T22:03:52.385Z",
-  "count": 254,
+  "updatedAt": "2026-10-26T01:24:05.121Z",
+  "count": 255,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -224,6 +224,7 @@
     "3815430443": "Neat Edges",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot",
     "3816229815": "Gunplay (Forked)",
+    "3817423183": "RimWorld Loading Optimizer (RLO)",
     "3817626085": "SG's Xenotype - Duskborne",
     "3817820660": "RimMarket",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
