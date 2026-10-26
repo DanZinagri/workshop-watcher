@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-26T01:24:05.121Z",
-  "count": 255,
+  "updatedAt": "2026-10-26T04:14:04.686Z",
+  "count": 256,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -28,6 +28,7 @@
     "2869057049": "Medieval Persona Weapons",
     "2878330448": "AlmostImpassable Chest-deep Water",
     "2879761467": "Plant 24H And Setable Schedule",
+    "2880940958": "Better Gene Graphics Framework",
     "2880942803": "AFU Cosmetic Gene Expanded",
     "2888037450": "Industrial concrete",
     "2893432492": "[FSF] FrozenSnowFox Tweaks",
