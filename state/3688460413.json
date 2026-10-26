@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-25T21:23:54.676Z",
-  "count": 528,
+  "updatedAt": "2026-10-26T13:39:33.196Z",
+  "count": 529,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -531,6 +531,7 @@
     "3824378660": "Mechlink Reinforcement",
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
-    "3827171332": "Big and Small - Fortified Features Framework patch"
+    "3827171332": "Big and Small - Fortified Features Framework patch",
+    "3827683917": "Taktikmagier - Vanilla Psycasts Expanded Patch"
   }
 }

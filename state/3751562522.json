@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-26T04:14:04.686Z",
-  "count": 256,
+  "updatedAt": "2026-10-26T13:39:31.154Z",
+  "count": 257,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -259,6 +259,7 @@
     "3825432887": "Giddy-Up - Race Riding Restrictions",
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
-    "3827171332": "Big and Small - Fortified Features Framework patch"
+    "3827171332": "Big and Small - Fortified Features Framework patch",
+    "3827683917": "Taktikmagier - Vanilla Psycasts Expanded Patch"
   }
 }
