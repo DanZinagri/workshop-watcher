@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-10-25T22:43:51.361Z",
-  "count": 119,
+  "updatedAt": "2026-10-26T13:59:30.787Z",
+  "count": 120,
   "items": {
     "712141500": "Animal Tab",
     "858744731": "Reverse Commands",
@@ -80,6 +80,7 @@
     "3522734130": "HarbingerKin - Phytokin",
     "3524806362": "Gene Ripper",
     "3526354009": "Replace Stuff - Continued",
+    "3526657761": "Pause other settlements simulation",
     "3532050275": "Adjustments for Vanilla Textures Expanded - [NL] Facial Animation",
     "3534224324": "Letter Gravship Ready",
     "3534699220": "Help me build",
