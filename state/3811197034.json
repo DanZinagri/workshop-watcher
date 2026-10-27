@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-26T13:59:32.992Z",
-  "count": 873,
+  "updatedAt": "2026-10-27T00:15:19.814Z",
+  "count": 874,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -876,6 +876,7 @@
     "3822563678": "If It Can Haul, It Can Pack",
     "3822713111": "Chemfuel Appliances (forked)",
     "3823183073": "Dan's Mod Configs",
-    "3825432887": "Giddy-Up - Race Riding Restrictions"
+    "3825432887": "Giddy-Up - Race Riding Restrictions",
+    "3828011298": "Caravan Carriers"
   }
 }
