@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-27T14:25:56.894Z",
-  "count": 260,
+  "updatedAt": "2026-10-27T15:00:56.259Z",
+  "count": 259,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -184,7 +184,6 @@
     "3781298660": "Winston Waves Xenotypes",
     "3783109079": "Character Development - Additional Gene Quirks",
     "3786107692": "Radius UI Framework",
-    "3786840944": "Radius UI - Quest Menu",
     "3786945713": "Radius UI - Faction Menu",
     "3787598088": "Ghouls Can Clean And Haul",
     "3787608587": "Prowess Nerf",
