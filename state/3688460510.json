@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-10-27T14:25:59.207Z",
-  "count": 233,
+  "updatedAt": "2026-10-28T00:56:27.471Z",
+  "count": 234,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -236,6 +236,7 @@
     "3810518822": "Flourish - Everyday Animations",
     "3813886095": "GF Hair Collection",
     "3820369944": "Biome Backdrops",
-    "3821202322": "Big and Small - Visible Pants Framework"
+    "3821202322": "Big and Small - Visible Pants Framework",
+    "3828495663": "Noble and Psycaster Styles Morbid"
   }
 }
