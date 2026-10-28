@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-28T14:01:53.241Z",
-  "count": 261,
+  "updatedAt": "2026-10-28T14:06:52.685Z",
+  "count": 260,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -260,7 +260,6 @@
     "3825432887": "Giddy-Up - Race Riding Restrictions",
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
-    "3827171332": "Big and Small - Fortified Features Framework patch",
     "3827748223": "Itemization Overhaul - Progression Education Patch",
     "3828011298": "Caravan Carriers",
     "3828045186": "Christian Deity Names Fix",
