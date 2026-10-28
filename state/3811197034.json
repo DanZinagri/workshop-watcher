@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-27T22:41:13.377Z",
-  "count": 873,
+  "updatedAt": "2026-10-28T14:51:53.903Z",
+  "count": 874,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -782,6 +782,7 @@
     "3768069893": "Pillar Planner",
     "3768684257": "Pawn Skills Reimagined",
     "3768849805": "Faction Territories Patches",
+    "3769605642": "No Log On Startup",
     "3769685249": "Grazing Area",
     "3769703665": "Corpse Cover",
     "3769804600": "Mine Sight",
