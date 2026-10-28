@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-28T17:57:05.740Z",
-  "count": 262,
+  "updatedAt": "2026-10-28T20:22:08.272Z",
+  "count": 263,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -265,6 +265,7 @@
     "3827748223": "Itemization Overhaul - Progression Education Patch",
     "3828011298": "Caravan Carriers",
     "3828045186": "Christian Deity Names Fix",
+    "3828062951": "These Are Our Lands",
     "3828562823": "Warcasket Gene Exemption"
   }
 }
