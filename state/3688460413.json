@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-27T17:20:57.992Z",
+  "updatedAt": "2026-10-28T14:01:55.495Z",
   "count": 530,
   "items": {
     "937759575": "Fahrenheit and Celsius",
@@ -483,6 +483,7 @@
     "3801431089": "Beam Constructor",
     "3802375059": "Big and Small - Catfolk",
     "3803509891": "VPE Classes - Paladin",
+    "3804042037": "Caravan Sustenance",
     "3805144466": "Sarcho Turtle",
     "3806038418": "Tech Robe",
     "3807566972": "VRE Highmate Catfolk Patch",
@@ -532,7 +533,6 @@
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
     "3827171332": "Big and Small - Fortified Features Framework patch",
-    "3827683917": "Taktikmagier - Vanilla Psycasts Expanded Patch",
     "3827748223": "Itemization Overhaul - Progression Education Patch"
   }
 }
