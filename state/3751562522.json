@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-28T14:06:52.685Z",
-  "count": 260,
+  "updatedAt": "2026-10-28T16:01:52.688Z",
+  "count": 261,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -166,6 +166,7 @@
     "3749719642": "Winston Waves Bugfix",
     "3752411876": "Atavism Libraries",
     "3754290953": "VPE Add-on Psycast Card Retextures",
+    "3757556443": "Anima Integration",
     "3758641034": "AFU for BNS Youkai",
     "3762126187": "Modern Character Creator",
     "3762272269": "Family Tree",
