@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-29T17:47:53.266Z",
-  "count": 265,
+  "updatedAt": "2026-10-29T22:38:08.468Z",
+  "count": 263,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -227,7 +227,6 @@
     "3815430443": "Neat Edges",
     "3815528891": "VVE Deconstructable Vehicles Junk - Randomized Loot",
     "3816229815": "Gunplay (Forked)",
-    "3817423183": "RimWorld Loading Optimizer (RLO)",
     "3817626085": "SG's Xenotype - Duskborne",
     "3817820660": "RimMarket",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
@@ -258,7 +257,6 @@
     "3823297618": "Big and Small - Harpies",
     "3823577681": "DMS - Progression Robotics Compat",
     "3824378660": "Mechlink Reinforcement",
-    "3825410203": "Gerrymon's Misc Props: Market",
     "3825432887": "Giddy-Up - Race Riding Restrictions",
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
