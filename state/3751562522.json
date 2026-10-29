@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-29T14:02:41.171Z",
-  "count": 264,
+  "updatedAt": "2026-10-29T17:47:53.266Z",
+  "count": 265,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -267,6 +267,7 @@
     "3828045186": "Christian Deity Names Fix",
     "3828062951": "These Are Our Lands",
     "3828562823": "Warcasket Gene Exemption",
-    "3829500081": "RimHUD Passion Icons"
+    "3829500081": "RimHUD Passion Icons",
+    "3829639699": "Biomes! Caverns - Medieval Overhaul Patch"
   }
 }

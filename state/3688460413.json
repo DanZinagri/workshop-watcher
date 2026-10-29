@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-10-29T02:02:19.414Z",
-  "count": 532,
+  "updatedAt": "2026-10-29T17:47:55.370Z",
+  "count": 533,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -535,6 +535,7 @@
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
     "3827748223": "Itemization Overhaul - Progression Education Patch",
-    "3828062951": "These Are Our Lands"
+    "3828062951": "These Are Our Lands",
+    "3829639699": "Biomes! Caverns - Medieval Overhaul Patch"
   }
 }
