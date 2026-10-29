@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-29T02:22:19.486Z",
-  "count": 871,
+  "updatedAt": "2026-10-29T22:43:08.773Z",
+  "count": 872,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -874,6 +874,7 @@
     "3825432887": "Giddy-Up - Race Riding Restrictions",
     "3828011298": "Caravan Carriers",
     "3828045186": "Christian Deity Names Fix",
-    "3828562823": "Warcasket Gene Exemption"
+    "3828562823": "Warcasket Gene Exemption",
+    "3828892965": "Null Tooltip & Nameless Book Fix"
   }
 }
