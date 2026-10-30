@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-30T14:58:45.183Z",
-  "count": 267,
+  "updatedAt": "2026-10-30T15:23:45.568Z",
+  "count": 269,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -263,6 +263,7 @@
     "3825432887": "Giddy-Up - Race Riding Restrictions",
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
+    "3826913422": "Fairy Xenotype",
     "3827748223": "Itemization Overhaul - Progression Education Patch",
     "3828011298": "Caravan Carriers",
     "3828045186": "Christian Deity Names Fix",
@@ -270,6 +271,7 @@
     "3828562823": "Warcasket Gene Exemption",
     "3829500081": "RimHUD Passion Icons",
     "3829639699": "Biomes! Caverns - Medieval Overhaul Patch",
+    "3829780171": "HD Fairy Xenotype Wings",
     "3830172755": "Ancient Amorphous Threat - LEO Delayed Start Fix"
   }
 }
