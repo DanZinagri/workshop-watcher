@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-30T20:08:58.985Z",
-  "count": 272,
+  "updatedAt": "2026-10-31T05:04:20.020Z",
+  "count": 273,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -275,6 +275,7 @@
     "3829500081": "RimHUD Passion Icons",
     "3829639699": "Biomes! Caverns - Medieval Overhaul Patch",
     "3829780171": "HD Fairy Xenotype Wings",
-    "3830172755": "Ancient Amorphous Threat - LEO Delayed Start Fix"
+    "3830172755": "Ancient Amorphous Threat - LEO Delayed Start Fix",
+    "3830608248": "VPE - Ravager Reimagined"
   }
 }
