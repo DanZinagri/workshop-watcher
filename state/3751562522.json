@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-10-31T05:14:20.712Z",
-  "count": 274,
+  "updatedAt": "2026-10-31T05:19:20.077Z",
+  "count": 275,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -262,6 +262,7 @@
     "3823297618": "Big and Small - Harpies",
     "3823577681": "DMS - Progression Robotics Compat",
     "3824378660": "Mechlink Reinforcement",
+    "3824643733": "VPE Protector Rework",
     "3825432887": "Giddy-Up - Race Riding Restrictions",
     "3826500999": "The Dead Man's Switch - Taktikmagier",
     "3826713499": "Sanguophage Blood Tastes",
