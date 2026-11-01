@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-01T01:50:10.090Z",
-  "count": 277,
+  "updatedAt": "2026-11-01T21:15:44.643Z",
+  "count": 278,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -280,6 +280,7 @@
     "3829639699": "Biomes! Caverns - Medieval Overhaul Patch",
     "3829780171": "HD Fairy Xenotype Wings",
     "3830172755": "Ancient Amorphous Threat - LEO Delayed Start Fix",
-    "3830608248": "VPE - Ravager Reimagined"
+    "3830608248": "VPE - Ravager Reimagined",
+    "3831980540": "Leviathans - Pacing Manager Patch"
   }
 }
