@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-10-30T16:43:46.973Z",
+  "updatedAt": "2026-11-01T23:25:49.763Z",
   "count": 877,
   "items": {
     "728314182": "RT Fuse",
@@ -835,6 +835,7 @@
     "3792795811": "Apparel Painter",
     "3794747458": "Localizer",
     "3794903743": "Artisan Experience",
+    "3794918384": "Vanilla Combat Overhaul",
     "3795310579": "VPE Shrunk Psycast Tooltip Fix",
     "3796610291": "[DR] Build Outline（占地描边）",
     "3796688140": "Rim is Ready",
@@ -853,7 +854,6 @@
     "3809376831": "Inject Genes Retextured (1.6 Reupload)",
     "3809985752": "Rules of Engagement",
     "3810687197": "What Did I Just Add",
-    "3812370282": "IMPACT - Combat Overhaul",
     "3813689040": "Custom Base Framework",
     "3814657467": "Door Direction (One-Way Doors, Mod Doors Supported)",
     "3815430443": "Neat Edges",
