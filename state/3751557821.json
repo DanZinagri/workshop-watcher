@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-11-01T03:00:10.609Z",
-  "count": 119,
+  "updatedAt": "2026-11-01T23:05:44.266Z",
+  "count": 120,
   "items": {
     "712141500": "Animal Tab",
     "858744731": "Reverse Commands",
@@ -122,6 +122,7 @@
     "3786319835": "Glowing Eyes Height And Tick Fix",
     "3789484706": "Molong facial animations",
     "3789536584": "Hospitality + Ideology Patch",
-    "3794287961": "Korg facial animations"
+    "3794287961": "Korg facial animations",
+    "3821528132": "[ADOPTED] Stubbly Facial Hair"
   }
 }
