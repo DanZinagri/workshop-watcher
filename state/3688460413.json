@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-11-02T07:26:26.617Z",
-  "count": 537,
+  "updatedAt": "2026-11-02T09:51:25.420Z",
+  "count": 538,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -540,6 +540,7 @@
     "3829639699": "Biomes! Caverns - Medieval Overhaul Patch",
     "3830172755": "Ancient Amorphous Threat - LEO Delayed Start Fix",
     "3830608248": "VPE - Ravager Reimagined",
-    "3831980540": "Leviathans - Pacing Manager Patch"
+    "3831980540": "Leviathans - Pacing Manager Patch",
+    "3832260439": "Big and Small - Unique Weapons"
   }
 }
