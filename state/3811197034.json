@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-02T19:51:57.896Z",
+  "updatedAt": "2026-11-02T19:56:57.695Z",
   "count": 875,
   "items": {
     "728314182": "RT Fuse",
@@ -319,7 +319,6 @@
     "3201556342": "Big Bed Buff",
     "3202046258": "Vanilla Temperature Expanded",
     "3203269467": "Colored deep resources",
-    "3210544395": "[SYR] Processor Framework (Continued)",
     "3211635205": "Improved Need Indicator",
     "3212476920": "Linkables Info Expanded",
     "3217675412": "Selective Bioregeneration",
@@ -861,6 +860,7 @@
     "3816504827": "Keyed Job Priorities",
     "3816961380": "Storage HUD",
     "3817423183": "RimWorld Loading Optimizer (RLO)",
+    "3818640415": "[SYR] Processor Framework - Legacy Edition",
     "3819260529": "VFEM2 - Merchant Guild Landing Fix",
     "3819508584": "Surveillance Shift",
     "3819555998": "Better Workbench Management - 1.7 Waylith (Unofficial)",
