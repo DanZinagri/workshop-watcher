@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-02T22:57:09.702Z",
-  "count": 274,
+  "updatedAt": "2026-11-03T00:42:09.016Z",
+  "count": 275,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -277,6 +277,7 @@
     "3830172755": "Ancient Amorphous Threat - LEO Delayed Start Fix",
     "3830608248": "VPE - Ravager Reimagined",
     "3831980540": "Leviathans - Pacing Manager Patch",
-    "3832260439": "Big and Small - Unique Weapons"
+    "3832260439": "Big and Small - Unique Weapons",
+    "3832712869": "Less Deadly Dependency"
   }
 }
