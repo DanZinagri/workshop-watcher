@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-03T23:13:32.947Z",
-  "count": 873,
+  "updatedAt": "2026-11-04T16:09:13.084Z",
+  "count": 875,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -724,7 +724,6 @@
     "3741230540": "Gene Source Tooltips",
     "3742689571": "Sleek Work Schedule Tab",
     "3742925193": "Modern History Menu",
-    "3742926690": "Modern Faction Menu",
     "3743959668": "Designations Tooltip",
     "3744201621": "True RPG Inventory",
     "3744208438": "True RPG Backpacks",
@@ -876,6 +875,9 @@
     "3828326660": "Modular Performance Tweaks",
     "3828562823": "Warcasket Gene Exemption",
     "3828892965": "Null Tooltip & Nameless Book Fix",
-    "3829549663": "Pick Up and Haul - Continued"
+    "3829549663": "Pick Up and Haul - Continued",
+    "3832843406": "[LFS] UI Rethemed - Core",
+    "3832850311": "[LFS] UI Rethemed - Factions",
+    "3832924427": "Xenotype Descriptions"
   }
 }
