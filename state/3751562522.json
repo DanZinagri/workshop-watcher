@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-06T19:11:20.166Z",
-  "count": 277,
+  "updatedAt": "2026-11-06T19:56:16.996Z",
+  "count": 278,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -280,6 +280,7 @@
     "3830608248": "VPE - Ravager Reimagined",
     "3831980540": "Leviathans - Pacing Manager Patch",
     "3832260439": "Big and Small - Unique Weapons",
-    "3832712869": "Less Deadly Dependency"
+    "3832712869": "Less Deadly Dependency",
+    "3834876866": "Medieval Overhaul - Timber Keep Progress"
   }
 }

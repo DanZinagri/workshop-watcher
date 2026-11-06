@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-06T19:11:21.924Z",
-  "count": 876,
+  "updatedAt": "2026-11-06T19:56:18.951Z",
+  "count": 877,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -879,6 +879,7 @@
     "3832843406": "[LFS] UI Rethemed - Core",
     "3832850311": "[LFS] UI Rethemed - Factions",
     "3832924427": "Xenotype Descriptions",
-    "3834465412": "Bulk Stonecutting - Keep Progress"
+    "3834465412": "Bulk Stonecutting - Keep Progress",
+    "3834876866": "Medieval Overhaul - Timber Keep Progress"
   }
 }
