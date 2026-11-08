@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-08T08:22:49.427Z",
-  "count": 879,
+  "updatedAt": "2026-11-08T18:18:08.663Z",
+  "count": 880,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -882,6 +882,7 @@
     "3834172773": "[LFS] UI Rethemed - Ideology",
     "3834396059": "AASB2: Underground Ore x3",
     "3834465412": "Bulk Stonecutting - Keep Progress",
-    "3834876866": "Medieval Overhaul - Timber Keep Progress"
+    "3834876866": "Medieval Overhaul - Timber Keep Progress",
+    "3835975372": "Ambience Core"
   }
 }
