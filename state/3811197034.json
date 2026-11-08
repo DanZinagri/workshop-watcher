@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-08T19:53:10.135Z",
-  "count": 878,
+  "updatedAt": "2026-11-08T21:33:09.591Z",
+  "count": 881,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -371,6 +371,7 @@
     "3268299107": "Mech Work Tab",
     "3275091331": "Alpha Implants",
     "3276562906": "Gerrymon's Upscaled Vanilla Textures",
+    "3278460897": "Thunderstorm",
     "3282003939": "Garage Doors Expanded",
     "3283859881": "Vanilla + Wall Vitals Monitors Retexture",
     "3285440328": "Neural Supercharger Ownership",
@@ -502,6 +503,7 @@
     "3525414162": "TD Enhancement Pack - Continued",
     "3526204611": "Disable Animated Marsh | Clean Textures - VTE, Regrowth Compatibility Patch",
     "3526216885": "No Max Bills: Redux",
+    "3526354009": "Replace Stuff - Continued",
     "3526444119": "Taste of Vanilla - Flaks and Plates",
     "3526957922": "[FSF] Better Exploration Loot",
     "3527761432": "Deep Water Fishing",
@@ -881,6 +883,7 @@
     "3834172773": "[LFS] UI Rethemed - Ideology",
     "3834396059": "AASB2: Underground Ore x3",
     "3834465412": "Bulk Stonecutting - Keep Progress",
-    "3834876866": "Medieval Overhaul - Timber Keep Progress"
+    "3834876866": "Medieval Overhaul - Timber Keep Progress",
+    "3835975372": "Ambience Core"
   }
 }
