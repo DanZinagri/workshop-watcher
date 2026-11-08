@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-08T18:18:08.663Z",
-  "count": 880,
+  "updatedAt": "2026-11-08T19:53:10.135Z",
+  "count": 878,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -371,7 +371,6 @@
     "3268299107": "Mech Work Tab",
     "3275091331": "Alpha Implants",
     "3276562906": "Gerrymon's Upscaled Vanilla Textures",
-    "3278460897": "Thunderstorm",
     "3282003939": "Garage Doors Expanded",
     "3283859881": "Vanilla + Wall Vitals Monitors Retexture",
     "3285440328": "Neural Supercharger Ownership",
@@ -882,7 +881,6 @@
     "3834172773": "[LFS] UI Rethemed - Ideology",
     "3834396059": "AASB2: Underground Ore x3",
     "3834465412": "Bulk Stonecutting - Keep Progress",
-    "3834876866": "Medieval Overhaul - Timber Keep Progress",
-    "3835975372": "Ambience Core"
+    "3834876866": "Medieval Overhaul - Timber Keep Progress"
   }
 }
