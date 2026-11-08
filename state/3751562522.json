@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-08T18:18:06.907Z",
-  "count": 277,
+  "updatedAt": "2026-11-08T18:58:07.468Z",
+  "count": 278,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -280,6 +280,7 @@
     "3831980540": "Leviathans - Pacing Manager Patch",
     "3832260439": "Big and Small - Unique Weapons",
     "3832712869": "Less Deadly Dependency",
-    "3835975372": "Ambience Core"
+    "3835975372": "Ambience Core",
+    "3836295446": "VFE Tribals - Starting Cornerstones"
   }
 }
