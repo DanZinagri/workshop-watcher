@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-09T03:03:19.001Z",
-  "count": 884,
+  "updatedAt": "2026-11-09T17:03:54.399Z",
+  "count": 885,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -887,6 +887,7 @@
     "3834465412": "Bulk Stonecutting - Keep Progress",
     "3834876866": "Medieval Overhaul - Timber Keep Progress",
     "3835975372": "Ambience Core",
-    "3836369455": "Baby Birds Can't Fly"
+    "3836369455": "Baby Birds Can't Fly",
+    "3836624677": "I Can Sit On This Throne"
   }
 }
