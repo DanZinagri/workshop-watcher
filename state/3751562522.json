@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-10T15:54:55.103Z",
-  "count": 275,
+  "updatedAt": "2026-11-10T21:15:14.561Z",
+  "count": 276,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -278,6 +278,7 @@
     "3832712869": "Less Deadly Dependency",
     "3835192854": "[ZA] More Eyes for [NL] Facial Animation",
     "3836295446": "VFE Tribals - Starting Cornerstones",
-    "3837394630": "Big and Small - Lepthera"
+    "3837394630": "Big and Small - Lepthera",
+    "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)"
   }
 }

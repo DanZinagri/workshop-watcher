@@ -1,7 +1,7 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-11-10T15:54:57.571Z",
+  "updatedAt": "2026-11-10T21:15:17.378Z",
   "count": 548,
   "items": {
     "937759575": "Fahrenheit and Celsius",
@@ -270,7 +270,6 @@
     "3498575851": "Fortified Features Framework",
     "3504125251": "Rimsenal Xenotype Pack - Zohar",
     "3505241400": "Big and Small - Sapient Animals",
-    "3507626861": "HALO: Rimworld Psychic Pulse Armory (Continued)",
     "3511764759": "[EN] Unagi Animal Mod Big Pom English Translation",
     "3513879867": "UNA English Translations",
     "3517096449": "[sbz] Cryogenic Tank",
@@ -551,6 +550,7 @@
     "3835096426": "Medic Warcasket",
     "3836295446": "VFE Tribals - Starting Cornerstones",
     "3836445267": "Panning For Gold Ore Patch",
-    "3837394630": "Big and Small - Lepthera"
+    "3837394630": "Big and Small - Lepthera",
+    "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)"
   }
 }
