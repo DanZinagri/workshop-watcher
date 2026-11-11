@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-11T14:30:55.990Z",
-  "count": 886,
+  "updatedAt": "2026-11-11T19:06:09.080Z",
+  "count": 889,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -457,6 +457,7 @@
     "3453224032": "Van's Retexture : Hemogen Vials",
     "3453408412": "Progression: Production",
     "3453878341": "More Milkable and Shearable Animals",
+    "3454176238": "Chemfuel Retextured : For Medieval and Tribal",
     "3455529827": "Basic Dropdowns",
     "3456687807": "VFE-Deserters: Remote Deadlife IED",
     "3457315303": "Helpful Raccoons | Fork by [ETF]",
@@ -704,6 +705,7 @@
     "3727646270": "Cellcycle Acceleration",
     "3728675951": "Footsteps",
     "3729878405": "Node Research",
+    "3730861087": "Chemfuel Retexture",
     "3731638172": "Who Updated",
     "3731965187": "Ritual Filter",
     "3734917610": "Rimbody Vanilla-Style Integration Patch",
@@ -889,6 +891,7 @@
     "3836369455": "Baby Birds Can't Fly",
     "3836592165": "Visual Progression: Van's Hemogen Vials",
     "3836624677": "I Can Sit On This Throne",
-    "3837322529": "Linkable Descriptions"
+    "3837322529": "Linkable Descriptions",
+    "3837997724": "Visual Progression: Chemfuel"
   }
 }
