@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-11T20:51:09.613Z",
-  "count": 888,
+  "updatedAt": "2026-11-11T21:46:08.367Z",
+  "count": 890,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -544,6 +544,7 @@
     "3538082807": "Meals On Wheels - Continued",
     "3538143191": "BetterInspectCard",
     "3538584455": "[CF] Anomaly Upscaled 2x",
+    "3541295970": "Van's Retexture : Organ jars",
     "3543386604": "Simple Cape and Hood Retexture",
     "3543791340": "Hull Style: NANAME Walls",
     "3543801460": "zone dryads",
@@ -891,6 +892,7 @@
     "3836592165": "Visual Progression: Van's Hemogen Vials",
     "3836624677": "I Can Sit On This Throne",
     "3837322529": "Linkable Descriptions",
-    "3837997724": "Visual Progression: Chemfuel"
+    "3837997724": "Visual Progression: Chemfuel",
+    "3838085030": "Visual Progression: Van's Organ Jars"
   }
 }
