@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-11T21:46:08.367Z",
-  "count": 890,
+  "updatedAt": "2026-11-11T21:51:08.183Z",
+  "count": 891,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -892,6 +892,7 @@
     "3836592165": "Visual Progression: Van's Hemogen Vials",
     "3836624677": "I Can Sit On This Throne",
     "3837322529": "Linkable Descriptions",
+    "3837808142": "Mech Group Rename & Caravan List",
     "3837997724": "Visual Progression: Chemfuel",
     "3838085030": "Visual Progression: Van's Organ Jars"
   }
