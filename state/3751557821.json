@@ -1,10 +1,9 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-11-10T21:15:12.626Z",
-  "count": 118,
+  "updatedAt": "2026-11-12T21:07:28.264Z",
+  "count": 116,
   "items": {
-    "712141500": "Animal Tab",
     "858744731": "Reverse Commands",
     "935982361": "Better Workbench Management",
     "1279012058": "Pick Up And Haul",
@@ -95,7 +94,6 @@
     "3596481890": "Gene-Ripper Gene",
     "3611982780": "Unknown item 3611982780",
     "3612608024": "Pawns Use Fire Extinguishers (Continued)",
-    "3626725895": "Faction Territories and Vassalage",
     "3648522175": "Medieval Overhaul ReGrowth 2 Patch",
     "3667814780": "Reese's Dirtmole Glowup - VE Facial Animation Support",
     "3673768803": "[1.6] CAI 5000 - Advanced AI + Fog Of War (continued)",
