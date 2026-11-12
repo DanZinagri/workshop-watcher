@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-12T20:57:31.028Z",
+  "updatedAt": "2026-11-12T21:02:29.849Z",
   "count": 895,
   "items": {
     "728314182": "RT Fuse",
@@ -861,7 +861,6 @@
     "3819508584": "Surveillance Shift",
     "3819555998": "Better Workbench Management - 1.7 Waylith (Unofficial)",
     "3819707781": "Progression: Bionics",
-    "3821183602": "Animal Tab — Unofficial Update",
     "3821644049": "Configurable Food Priority",
     "3822563678": "If It Can Haul, It Can Pack",
     "3822713111": "Chemfuel Appliances (forked)",
@@ -882,6 +881,7 @@
     "3829549663": "Pick Up and Haul - Continued",
     "3829638797": "Dynamic Spacefarer Policy",
     "3830774158": "[LFS] UI Rethemed - History",
+    "3831602102": "[LFS] UI Rethemed - Animals",
     "3832293718": "[DG]More Door Variants",
     "3832843406": "[LFS] UI Rethemed - Core",
     "3832850311": "[LFS] UI Rethemed - Factions",
