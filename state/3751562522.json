@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-14T02:43:47.109Z",
-  "count": 282,
+  "updatedAt": "2026-11-14T10:44:13.998Z",
+  "count": 283,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -285,6 +285,7 @@
     "3836295446": "VFE Tribals - Starting Cornerstones",
     "3837394630": "Big and Small - Lepthera",
     "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)",
-    "3838111458": "Weather Reimagined"
+    "3838111458": "Weather Reimagined",
+    "3839401293": "VQE - Ancients: Mega Vault"
   }
 }
