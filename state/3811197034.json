@@ -1,7 +1,7 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-12T21:02:29.849Z",
+  "updatedAt": "2026-11-14T02:43:48.857Z",
   "count": 895,
   "items": {
     "728314182": "RT Fuse",
@@ -221,7 +221,6 @@
     "2905707100": "Vanilla Genes Rebalanced",
     "2910865748": "Mod Options Sort",
     "2911939966": "Compatibility On Hover",
-    "2912575354": "HEAVY Snow",
     "2913464579": "[sbz] WVC - Work Modes retexture",
     "2913588675": "Corpse info",
     "2914821423": "Resize Filter Tab",
@@ -898,6 +897,7 @@
     "3837322529": "Linkable Descriptions",
     "3837808142": "Mech Group Rename & Caravan List",
     "3837997724": "Visual Progression: Chemfuel",
-    "3838085030": "Visual Progression: Van's Organ Jars"
+    "3838085030": "Visual Progression: Van's Organ Jars",
+    "3838111458": "Weather Reimagined"
   }
 }

@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-12T21:07:30.499Z",
-  "count": 281,
+  "updatedAt": "2026-11-14T02:43:47.109Z",
+  "count": 282,
   "items": {
     "1447140290": "OgreStack",
     "1508850027": "RimHUD",
@@ -284,6 +284,7 @@
     "3835192854": "[ZA] More Eyes for [NL] Facial Animation",
     "3836295446": "VFE Tribals - Starting Cornerstones",
     "3837394630": "Big and Small - Lepthera",
-    "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)"
+    "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)",
+    "3838111458": "Weather Reimagined"
   }
 }
