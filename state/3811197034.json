@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-14T02:43:48.857Z",
-  "count": 895,
+  "updatedAt": "2026-11-14T17:49:24.563Z",
+  "count": 897,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -890,6 +890,7 @@
     "3834465412": "Bulk Stonecutting - Keep Progress",
     "3834876866": "Medieval Overhaul - Timber Keep Progress",
     "3834891951": "Visual Progression Framework",
+    "3835520732": "Vehicles at Work",
     "3835975372": "Ambience Core",
     "3836369455": "Baby Birds Can't Fly",
     "3836592165": "Visual Progression: Van's Hemogen Vials",
@@ -898,6 +899,7 @@
     "3837808142": "Mech Group Rename & Caravan List",
     "3837997724": "Visual Progression: Chemfuel",
     "3838085030": "Visual Progression: Van's Organ Jars",
-    "3838111458": "Weather Reimagined"
+    "3838111458": "Weather Reimagined",
+    "3839235856": "Never Home Area"
   }
 }

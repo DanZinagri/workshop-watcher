@@ -1,8 +1,8 @@
 {
   "collectionId": "3751557821",
   "initialized": true,
-  "updatedAt": "2026-11-14T02:53:45.154Z",
-  "count": 118,
+  "updatedAt": "2026-11-14T17:49:21.994Z",
+  "count": 119,
   "items": {
     "858744731": "Reverse Commands",
     "935982361": "Better Workbench Management",
@@ -121,6 +121,7 @@
     "3789536584": "Hospitality + Ideology Patch",
     "3794287961": "Korg facial animations",
     "3796688140": "Rim is Ready",
-    "3821528132": "[ADOPTED] Stubbly Facial Hair"
+    "3821528132": "[ADOPTED] Stubbly Facial Hair",
+    "3827953715": "CAI 5000 Performance Fix (1.7)"
   }
 }
