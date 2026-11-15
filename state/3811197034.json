@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-14T17:49:24.563Z",
-  "count": 897,
+  "updatedAt": "2026-11-15T16:10:07.936Z",
+  "count": 899,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -456,6 +456,7 @@
     "3444347874": "Vanilla Factions Expanded - Medieval 2",
     "3451039220": "Dubs Bad Hygiene: StallDoorFix",
     "3453224032": "Van's Retexture : Hemogen Vials",
+    "3453364177": "Rustic Meal Retexture",
     "3453408412": "Progression: Production",
     "3453878341": "More Milkable and Shearable Animals",
     "3454176238": "Chemfuel Retextured : For Medieval and Tribal",
@@ -890,6 +891,7 @@
     "3834465412": "Bulk Stonecutting - Keep Progress",
     "3834876866": "Medieval Overhaul - Timber Keep Progress",
     "3834891951": "Visual Progression Framework",
+    "3834892583": "Visual Progression: Meals",
     "3835520732": "Vehicles at Work",
     "3835975372": "Ambience Core",
     "3836369455": "Baby Birds Can't Fly",
