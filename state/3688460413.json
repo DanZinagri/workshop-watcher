@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-11-14T10:44:16.153Z",
-  "count": 555,
+  "updatedAt": "2026-11-15T16:25:09.355Z",
+  "count": 556,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -558,6 +558,7 @@
     "3837394630": "Big and Small - Lepthera",
     "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)",
     "3837632462": "Injector Implant",
+    "3838791029": "VQE - Ancients: Lost Vaults",
     "3839401293": "VQE - Ancients: Mega Vault"
   }
 }
