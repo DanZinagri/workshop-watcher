@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-17T14:42:11.877Z",
-  "count": 901,
+  "updatedAt": "2026-11-17T23:42:23.705Z",
+  "count": 905,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -904,6 +904,10 @@
     "3838111458": "Weather Reimagined",
     "3839235856": "Never Home Area",
     "3840498215": "UI Rethemed - Era Looks",
-    "3840876824": "[LFS] UI Rethemed - Relationships"
+    "3840876824": "[LFS] UI Rethemed - Relationships",
+    "3841674396": "Progression: Water",
+    "3841675689": "Progression: Power",
+    "3841676471": "Progression: Waste",
+    "3841677765": "Progression: Vehicles"
   }
 }
