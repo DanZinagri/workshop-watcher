@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-17T23:47:27.065Z",
-  "count": 904,
+  "updatedAt": "2026-11-17T23:52:23.007Z",
+  "count": 905,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -264,6 +264,7 @@
     "3007612546": "Trader Show Xenotype",
     "3008486548": "Show Days to Rot in Info Window",
     "3009274839": "Development Mode Hotkey",
+    "3009527756": "Engine Industries",
     "3009738919": "Priority Treatment Ressurected",
     "3009790001": "Visandars Rocks and Stones",
     "3012491521": "Smarter Visitors",
