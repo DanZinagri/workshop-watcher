@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-11-16T23:16:34.156Z",
-  "count": 557,
+  "updatedAt": "2026-11-17T14:47:10.749Z",
+  "count": 559,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -554,12 +554,14 @@
     "3835096426": "Medic Warcasket",
     "3836295446": "VFE Tribals - Starting Cornerstones",
     "3836445267": "Panning For Gold Ore Patch",
+    "3836765380": "Cherokee Sling - Vehicle and Container Airlift",
     "3837394630": "Big and Small - Lepthera",
     "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)",
     "3837632462": "Injector Implant",
     "3837906824": "Wayward Biomes: Tangled Hollows",
     "3838791029": "VQE - Ancients: Lost Vaults",
     "3839401293": "VQE - Ancients: Mega Vault",
+    "3840130852": "Sling Framework",
     "3841078351": "Overlord Warcasket"
   }
 }
