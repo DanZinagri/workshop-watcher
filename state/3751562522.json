@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-17T23:47:25.098Z",
-  "count": 283,
+  "updatedAt": "2026-11-18T01:32:33.938Z",
+  "count": 284,
   "items": {
     "1447140290": "OgreStack",
     "1665403571": "Elite Bionics Framework",
@@ -286,6 +286,7 @@
     "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)",
     "3838111458": "Weather Reimagined",
     "3838791029": "VQE - Ancients: Lost Vaults",
-    "3839401293": "VQE - Ancients: Mega Vault"
+    "3839401293": "VQE - Ancients: Mega Vault",
+    "3841240775": "Lazarus Mechanisation"
   }
 }

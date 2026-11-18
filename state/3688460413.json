@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-11-18T00:07:23.208Z",
-  "count": 563,
+  "updatedAt": "2026-11-18T01:32:35.950Z",
+  "count": 564,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -566,6 +566,7 @@
     "3838791029": "VQE - Ancients: Lost Vaults",
     "3839401293": "VQE - Ancients: Mega Vault",
     "3840130852": "Sling Framework",
-    "3841078351": "Overlord Warcasket"
+    "3841078351": "Overlord Warcasket",
+    "3841240775": "Lazarus Mechanisation"
   }
 }
