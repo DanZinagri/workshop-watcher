@@ -1,7 +1,7 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-18T15:12:59.851Z",
+  "updatedAt": "2026-11-19T14:54:19.558Z",
   "count": 281,
   "items": {
     "1447140290": "OgreStack",
@@ -252,7 +252,6 @@
     "3821644049": "Configurable Food Priority",
     "3822149552": "Hozen Xenotype",
     "3822563678": "If It Can Haul, It Can Pack",
-    "3822713111": "Chemfuel Appliances (forked)",
     "3823183073": "Dan's Mod Configs",
     "3823256718": "Rimsenal Xenotype Pack - Dioktri",
     "3823297618": "Big and Small - Harpies",
@@ -283,6 +282,7 @@
     "3837544483": "HALO: Rimworld Psychic Pulse Armory (Continued)",
     "3838111458": "Weather Reimagined",
     "3838791029": "VQE - Ancients: Lost Vaults",
+    "3838917129": "Chemfuel Appliances Expanded (Continued)",
     "3839401293": "VQE - Ancients: Mega Vault",
     "3841240775": "Lazarus Mechanisation"
   }
