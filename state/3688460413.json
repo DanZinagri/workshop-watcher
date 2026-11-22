@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460413",
   "initialized": true,
-  "updatedAt": "2026-11-19T23:39:32.019Z",
-  "count": 565,
+  "updatedAt": "2026-11-22T18:17:27.032Z",
+  "count": 566,
   "items": {
     "937759575": "Fahrenheit and Celsius",
     "1055485938": "Megafauna",
@@ -568,6 +568,7 @@
     "3840130852": "Sling Framework",
     "3841078351": "Overlord Warcasket",
     "3841240775": "Lazarus Mechanisation",
-    "3842174841": "Map Vehicles – Ocean Expansion"
+    "3842174841": "Map Vehicles – Ocean Expansion",
+    "3844020959": "HYRAX"
   }
 }
