@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-23T16:13:29.676Z",
-  "count": 282,
+  "updatedAt": "2026-11-23T16:18:29.929Z",
+  "count": 281,
   "items": {
     "1447140290": "OgreStack",
     "1665403571": "Elite Bionics Framework",
@@ -284,7 +284,6 @@
     "3838917129": "Chemfuel Appliances Expanded (Continued)",
     "3839401293": "VQE - Ancients: Mega Vault",
     "3840043127": "[OPEN BETA] These Are Our People",
-    "3841240775": "Lazarus Mechanisation",
-    "3844425399": "Hemophage Warcasket"
+    "3841240775": "Lazarus Mechanisation"
   }
 }
