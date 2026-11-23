@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-23T14:58:07.179Z",
-  "count": 904,
+  "updatedAt": "2026-11-23T16:13:31.466Z",
+  "count": 905,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -907,6 +907,7 @@
     "3841675689": "Progression: Power",
     "3841676471": "Progression: Waste",
     "3841677765": "Progression: Vehicles",
-    "3842457773": "Time Since Save"
+    "3842457773": "Time Since Save",
+    "3844147232": "Resource Readout+"
   }
 }
