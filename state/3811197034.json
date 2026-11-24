@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-23T16:23:30.039Z",
-  "count": 905,
+  "updatedAt": "2026-11-24T03:18:55.219Z",
+  "count": 906,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -908,6 +908,7 @@
     "3841676471": "Progression: Waste",
     "3841677765": "Progression: Vehicles",
     "3842457773": "Time Since Save",
-    "3844147232": "Resource Readout+"
+    "3844147232": "Resource Readout+",
+    "3845069288": "Passable Void Monolith"
   }
 }
