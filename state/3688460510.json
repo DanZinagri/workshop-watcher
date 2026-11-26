@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-11-26T00:35:44.622Z",
-  "count": 244,
+  "updatedAt": "2026-11-26T00:40:39.909Z",
+  "count": 246,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -247,6 +247,8 @@
     "3835192854": "[ZA] More Eyes for [NL] Facial Animation",
     "3839041756": "Player Multicolor Ideology Icon",
     "3840619132": "Styles Pack for VFE Classical (Fan Mod)",
-    "3843473937": "Soviet Ideology Style"
+    "3843473937": "Soviet Ideology Style",
+    "3844916996": "Mechanoid Hive Style",
+    "3845579824": "Scattered Stones - Adaptive Storage Fix"
   }
 }
