@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-25T18:50:27.689Z",
-  "count": 286,
+  "updatedAt": "2026-11-26T00:35:39.450Z",
+  "count": 285,
   "items": {
     "1447140290": "OgreStack",
     "1665403571": "Elite Bionics Framework",
@@ -288,7 +288,6 @@
     "3839401293": "VQE - Ancients: Mega Vault",
     "3840043127": "[OPEN BETA] These Are Our People",
     "3841240775": "Lazarus Mechanisation",
-    "3845069288": "Passable Void Monolith",
-    "3845869507": "Big and Small Furniture - Giant Bed Styles"
+    "3845069288": "Passable Void Monolith"
   }
 }
