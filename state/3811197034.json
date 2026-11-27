@@ -1,8 +1,8 @@
 {
   "collectionId": "3811197034",
   "initialized": true,
-  "updatedAt": "2026-11-25T07:10:00.774Z",
-  "count": 905,
+  "updatedAt": "2026-11-27T23:17:41.091Z",
+  "count": 906,
   "items": {
     "728314182": "RT Fuse",
     "730936602": "Achtung!",
@@ -908,6 +908,7 @@
     "3841677765": "Progression: Vehicles",
     "3842457773": "Time Since Save",
     "3844147232": "Resource Readout+",
-    "3845069288": "Passable Void Monolith"
+    "3845069288": "Passable Void Monolith",
+    "3846930513": "Big and Small - Taur Riding"
   }
 }
