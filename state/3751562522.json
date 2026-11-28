@@ -1,8 +1,8 @@
 {
   "collectionId": "3751562522",
   "initialized": true,
-  "updatedAt": "2026-11-27T23:17:39.364Z",
-  "count": 286,
+  "updatedAt": "2026-11-28T05:52:58.613Z",
+  "count": 287,
   "items": {
     "1447140290": "OgreStack",
     "1665403571": "Elite Bionics Framework",
@@ -289,6 +289,7 @@
     "3840043127": "[OPEN BETA] These Are Our People",
     "3841240775": "Lazarus Mechanisation",
     "3845069288": "Passable Void Monolith",
-    "3846930513": "Big and Small - Taur Riding"
+    "3846930513": "Big and Small - Taur Riding",
+    "3847022757": "Morton's Styles Frigid"
   }
 }

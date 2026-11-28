@@ -1,8 +1,8 @@
 {
   "collectionId": "3688460510",
   "initialized": true,
-  "updatedAt": "2026-11-26T00:40:39.909Z",
-  "count": 246,
+  "updatedAt": "2026-11-28T05:53:00.817Z",
+  "count": 247,
   "items": {
     "725949967": "Rimsenal - Hair pack",
     "1635901197": "[NL] Facial Animation - WIP",
@@ -249,6 +249,7 @@
     "3840619132": "Styles Pack for VFE Classical (Fan Mod)",
     "3843473937": "Soviet Ideology Style",
     "3844916996": "Mechanoid Hive Style",
-    "3845579824": "Scattered Stones - Adaptive Storage Fix"
+    "3845579824": "Scattered Stones - Adaptive Storage Fix",
+    "3847022757": "Morton's Styles Frigid"
   }
 }
